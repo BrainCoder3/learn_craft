@@ -24,17 +24,20 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [error, setError] = useState<Error | null>(null);
 
   useEffect(() => {
+      return () => {
+        window.removeEventListener('learncraft-mock-auth-change', handler);
+      };
+    }
+    // Existing Firebase listener
     const unsubscribe = onAuthStateChanged(auth, async (fbUser) => {
       try {
         setFirebaseUser(fbUser);
-
         if (fbUser) {
           const userData = await getUser(fbUser.uid);
           setUser(userData);
         } else {
           setUser(null);
         }
-
         setError(null);
       } catch (err) {
         setError(err instanceof Error ? err : new Error('Auth error'));
@@ -43,11 +46,19 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         setLoading(false);
       }
     });
-
     return () => unsubscribe();
   }, []);
 
   const logout = async () => {
+    if (isMockMode()) {
+      // Clear mock user
+      window.localStorage.removeItem(MOCK_USER_KEY);
+      const event = new Event(MOCK_AUTH_EVENT);
+      window.dispatchEvent(event);
+      setUser(null);
+      setFirebaseUser(null);
+      return;
+    }
     try {
       await signOut(auth);
       setUser(null);

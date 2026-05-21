@@ -6,6 +6,7 @@ import { Link } from '@/i18n/routing';
 import { getTranslations } from 'next-intl/server';
 import { LanguageSwitcher } from '@/components/ui/LanguageSwitcher';
 import { ThemeSwitcher } from '@/components/ui/ThemeSwitcher';
+import { AuthButton } from '@/components/ui/AuthButton';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -33,6 +34,9 @@ export default async function HomePage({ params }: Props) {
               <Link href="/" className="text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--interactive-primary)] transition-colors">
                 {tNav('home')}
               </Link>
+              <Link href="/" className="text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--interactive-primary)] transition-colors">
+                {tNav('courses')}
+              </Link>
               <Link href="/settings" className="text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--interactive-primary)] transition-colors">
                 {tNav('settings')}
               </Link>
@@ -41,6 +45,7 @@ export default async function HomePage({ params }: Props) {
           <div className="flex items-center gap-4">
             <ThemeSwitcher />
             <LanguageSwitcher />
+            <AuthButton />
           </div>
         </div>
       </header>

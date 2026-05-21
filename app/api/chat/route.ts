@@ -36,8 +36,9 @@ function checkRateLimit(userId: string): boolean {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { message, courseId, chapterId, userId, chapterTitle, previousMessages } = body as ChatContext & {
+    const { message, courseId, chapterId, userId, chapterTitle, previousMessages, locale } = body as ChatContext & {
       message: string;
+      locale?: string;
     };
 
     // Validate required fields
@@ -71,26 +72,58 @@ export async function POST(request: NextRequest) {
 
     // Build conversation context
     const conversationHistory = (previousMessages || [])
-      .slice(-10) // Keep last 10 messages for context
+      .slice(-10)
       .map((msg: any) => ({
         role: msg.role === 'user' ? 'user' : 'model',
         parts: [{ text: msg.content }],
       }));
 
-    // Build system prompt
-    const systemPrompt = `Tu es un mentor IA expert en programmation et technologies. Tu aides les étudiants à apprendre.
+    // Build locale-aware system prompt
+    const systemPrompts: Record<string, string> = {
+      fr: `Tu es un mentor IA expert en programmation et technologies. Tu aides les étudiants à apprendre.
 
 Contexte du cours:
 - Chapitre: ${chapterTitle}
 - Cours ID: ${courseId}
 
 Instructions:
-1. Réponds en français uniquement
-2. Sois pédagogue et patient
-3. Fournis des explications claires avec des exemples si nécessaire
+1. Réponds TOUJOURS en français
+2. Sois pédagogue, bienveillant et patient
+3. Fournis des explications claires avec des exemples concrets
 4. Si la question n'est pas liée au contenu du cours, oriente poliment vers le sujet
-5. Encourage l'étudiant à apprendre davantage
-6. Explique les concepts en détail si demandé`;
+5. Encourage l'étudiant dans son apprentissage
+6. Pour le code, utilise des blocs de code avec la syntaxe appropriée`,
+
+      en: `You are an AI programming and technology mentor. You help students learn.
+
+Course context:
+- Chapter: ${chapterTitle}
+- Course ID: ${courseId}
+
+Instructions:
+1. Always respond in English
+2. Be pedagogical, encouraging, and patient
+3. Provide clear explanations with concrete examples
+4. If the question is unrelated to the course, politely redirect
+5. Encourage the student's learning journey
+6. For code, use proper code blocks with syntax`,
+
+      ar: `أنت مرشد ذكاء اصطناعي متخصص في البرمجة والتكنولوجيا. تساعد الطلاب على التعلم.
+
+سياق الدورة:
+- الفصل: ${chapterTitle}
+- معرف الدورة: ${courseId}
+
+التعليمات:
+1. أجب دائمًا باللغة العربية
+2. كن تعليميًا ومشجعًا وصبورًا
+3. قدم شروحات واضحة مع أمثلة ملموسة
+4. إذا كان السؤال غير متعلق بمحتوى الدورة، وجّه الطالب بلطف
+5. شجع الطالب في رحلة تعلمه
+6. بالنسبة للكود، استخدم كتل الكود المناسبة`,
+    };
+
+    const systemPrompt = systemPrompts[locale || 'fr'] || systemPrompts['en'];
 
     // Create streaming response
     const encodedStream = new ReadableStream({

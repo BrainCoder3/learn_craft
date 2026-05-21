@@ -17,7 +17,7 @@ interface UseChatReturn {
  * Client-side hook for AI chat with streaming support
  * Uses useOptimistic for instant UI feedback
  */
-export function useChat(userId: string, courseId: string, chapterId: string): UseChatReturn {
+export function useChat(userId: string, courseId: string, chapterId: string, locale: string = 'fr'): UseChatReturn {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<Error | null>(null);
@@ -63,6 +63,7 @@ export function useChat(userId: string, courseId: string, chapterId: string): Us
             courseId,
             chapterId,
             userId,
+            locale,
             previousMessages: messages,
           }),
           signal: abortControllerRef.current.signal,
