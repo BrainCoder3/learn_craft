@@ -1,0 +1,107 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "courses": "Cours",
+    "myProgress": "Mon Progrès",
+    "settings": "Paramètres",
+    "logout": "Déconnexion"
+  },
+  "home": {
+    "hero": {
+      "title": "Apprenez la programmation avec l'IA",
+      "subtitle": "LearnCraft est une plateforme d'apprentissage interactive offrant des cours, des quiz et un mentorat IA pour vous aider à maîtriser la programmation et les technologies modernes.",
+      "cta": "Commencer gratuitement"
+    },
+    "features": {
+      "aiMentor": {
+        "title": "Mentorat IA",
+        "desc": "Un assistant IA disponible 24h/24 et 7j/7 pour répondre instantanément à vos questions de codage."
+      },
+      "roadmap": {
+        "title": "Parcours structuré",
+        "desc": "Des parcours d'apprentissage progressifs du niveau débutant à avancé avec un contenu à jour."
+      },
+      "quiz": {
+        "title": "Quiz interactifs",
+        "desc": "Testez vos connaissances avec des quiz notés et des explications détaillées."
+      }
+    }
+  },
+  "courses": {
+    "title": "Nos cours populaires",
+    "subtitle": "Découvrez une sélection de nos meilleurs cours et commencez à apprendre aujourd'hui.",
+    "searchPlaceholder": "Rechercher des cours...",
+    "filterAll": "Tous",
+    "filterBeginner": "Débutant",
+    "filterIntermediate": "Intermédiaire",
+    "filterAdvanced": "Avancé",
+    "chaptersCount": "{count} chapitres",
+    "startCourse": "Commencer le cours",
+    "continueCourse": "Continuer le cours",
+    "completed": "Complété"
+  },
+  "lesson": {
+    "chapterOf": "Chapitre {current} sur {total}",
+    "markComplete": "Marquer comme terminé",
+    "nextChapter": "Chapitre suivant",
+    "previousChapter": "Chapitre précédent",
+    "quizTitle": "Quiz interactif",
+    "quizSubmit": "Soumettre la réponse",
+    "quizCorrect": "Correct ! Bon travail.",
+    "quizWrong": "Mauvaise réponse. Réessayez !",
+    "quizScore": "Votre score : {score}%",
+    "aiMentorTitle": "Mentor de code IA",
+    "aiMentorPlaceholder": "Posez-moi n'importe quelle question...",
+    "aiMentorSend": "Envoyer",
+    "aiThinking": "Réflexion...",
+    "debugMode": "Mode débogage",
+    "explainThis": "Expliquer ce fragment de code"
+  },
+  "auth": {
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "signOut": "Se déconnecter",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "continueWithGoogle": "Continuer avec Google",
+    "forgotPassword": "Mot de passe oublié ?",
+    "noAccount": "Vous n'avez pas de compte ? S'inscrire",
+    "alreadyAccount": "Vous avez déjà un compte ? Se connecter"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": "Langue",
+    "theme": "Thème",
+    "themeLight": "Clair",
+    "themeDark": "Sombre",
+    "themeSystem": "Système",
+    "account": "Informations du compte",
+    "dangerZone": "Zone de danger",
+    "deleteAccount": "Supprimer le compte",
+    "notifications": "Notifications",
+    "notificationsLabel": "E-mails & Notifications Push",
+    "notificationsDesc": "Recevoir des mises à jour sur les lancements de cours, les jalons et les recommandations du mentor.",
+    "resetButton": "Réinitialiser tous les paramètres",
+    "resetConfirm": "Êtes-vous sûr de vouloir réinitialiser vos paramètres ? (Le thème sera réinitialisé sur Système)",
+    "resetSuccess": "Les paramètres ont été réinitialisés aux valeurs par défaut."
+  },
+  "errors": {
+    "notFound": "Page non trouvée",
+    "serverError": "Erreur interne du serveur",
+    "unauthorized": "Accès non autorisé",
+    "tryAgain": "Réessayer"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "next": "Suivant",
+    "yes": "Oui",
+    "no": "Non",
+    "search": "Rechercher",
+    "close": "Fermer",
+    "learnMore": "En savoir plus"
+  }
+}

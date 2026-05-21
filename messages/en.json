@@ -1,0 +1,107 @@
+{
+  "navigation": {
+    "home": "Home",
+    "courses": "Courses",
+    "myProgress": "My Progress",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "home": {
+    "hero": {
+      "title": "Learn Programming with AI",
+      "subtitle": "LearnCraft is an interactive learning platform offering courses, quizzes, and AI mentoring to help you master programming and modern tech.",
+      "cta": "Start Learning Free"
+    },
+    "features": {
+      "aiMentor": {
+        "title": "AI Mentoring",
+        "desc": "A 24/7 AI assistant ready to answer your coding questions instantly."
+      },
+      "roadmap": {
+        "title": "Structured Roadmap",
+        "desc": "Progressive learning paths from beginner to advanced with up-to-date content."
+      },
+      "quiz": {
+        "title": "Interactive Quizzes",
+        "desc": "Test your knowledge with graded quizzes and detailed explanations."
+      }
+    }
+  },
+  "courses": {
+    "title": "Our Popular Courses",
+    "subtitle": "Explore a selection of our best courses and start learning today.",
+    "searchPlaceholder": "Search courses...",
+    "filterAll": "All",
+    "filterBeginner": "Beginner",
+    "filterIntermediate": "Intermediate",
+    "filterAdvanced": "Advanced",
+    "chaptersCount": "{count} chapters",
+    "startCourse": "Start Course",
+    "continueCourse": "Continue Course",
+    "completed": "Completed"
+  },
+  "lesson": {
+    "chapterOf": "Chapter {current} of {total}",
+    "markComplete": "Mark as Complete",
+    "nextChapter": "Next Chapter",
+    "previousChapter": "Previous Chapter",
+    "quizTitle": "Interactive Quiz",
+    "quizSubmit": "Submit Answer",
+    "quizCorrect": "Correct! Good job.",
+    "quizWrong": "Wrong answer. Try again!",
+    "quizScore": "Your score: {score}%",
+    "aiMentorTitle": "AI Coding Mentor",
+    "aiMentorPlaceholder": "Ask me any coding question...",
+    "aiMentorSend": "Send",
+    "aiThinking": "Thinking...",
+    "debugMode": "Debug Mode",
+    "explainThis": "Explain this code snippet"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "email": "Email Address",
+    "password": "Password",
+    "continueWithGoogle": "Continue with Google",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account? Sign up",
+    "alreadyAccount": "Already have an account? Sign in"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "account": "Account Information",
+    "dangerZone": "Danger Zone",
+    "deleteAccount": "Delete Account",
+    "notifications": "Notifications",
+    "notificationsLabel": "Email & Push Notifications",
+    "notificationsDesc": "Receive updates about course releases, milestones, and mentor recommendations.",
+    "resetButton": "Reset All Settings",
+    "resetConfirm": "Are you sure you want to reset your settings? (Theme will be reset to System)",
+    "resetSuccess": "Settings have been reset to default values."
+  },
+  "errors": {
+    "notFound": "Page Not Found",
+    "serverError": "Internal Server Error",
+    "unauthorized": "Unauthorized Access",
+    "tryAgain": "Try Again"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "yes": "Yes",
+    "no": "No",
+    "search": "Search",
+    "close": "Close",
+    "learnMore": "Learn More"
+  }
+}

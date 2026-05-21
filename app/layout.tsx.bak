@@ -1,0 +1,12 @@
+// app/layout.tsx
+import { ReactNode } from 'react';
+
+type Props = {
+  children: ReactNode;
+};
+
+// Since we have root-level error/not-found files, Next.js requires a root layout.
+// This acts as a pass-through to avoid duplicating html/body tags for localized layouts.
+export default function RootLayout({ children }: Props) {
+  return children;
+}

@@ -1,0 +1,107 @@
+{
+  "navigation": {
+    "home": "الرئيسية",
+    "courses": "الدورات",
+    "myProgress": "تقدمي",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "home": {
+    "hero": {
+      "title": "تعلم البرمجة بمساعدة الذكاء الاصطناعي",
+      "subtitle": "LearnCraft هي منصة تعليمية تفاعلية تقدم دورات واختبارات وتوجيهاً بالذكاء الاصطناعي لمساعدتك على إتقان البرمجة والتقنيات الحديثة.",
+      "cta": "ابدأ التعلم مجاناً"
+    },
+    "features": {
+      "aiMentor": {
+        "title": "توجيه بالذكاء الاصطناعي",
+        "desc": "مساعد ذكاء اصطناعي متاح على مدار الساعة طوال أيام الأسبوع للإجابة على أسئلتك البرمجية فوراً."
+      },
+      "roadmap": {
+        "title": "خطة دراسية منظمة",
+        "desc": "مسارات تعليمية متدرجة من المبتدئ إلى المتقدم بمحتوى محدث باستمرار."
+      },
+      "quiz": {
+        "title": "اختبارات تفاعلية",
+        "desc": "اختبر معلوماتك مع اختبارات مقيمة وشروحات مفصلة لكل سؤال."
+      }
+    }
+  },
+  "courses": {
+    "title": "دوراتنا الشهيرة",
+    "subtitle": "اكتشف مجموعة من أفضل دوراتنا وابدأ التعلم اليوم.",
+    "searchPlaceholder": "البحث عن الدورات...",
+    "filterAll": "الكل",
+    "filterBeginner": "مبتدئ",
+    "filterIntermediate": "متوسط",
+    "filterAdvanced": "متقدم",
+    "chaptersCount": "{count} فصول",
+    "startCourse": "بدء الدورة",
+    "continueCourse": "متابعة الدورة",
+    "completed": "مكتمل"
+  },
+  "lesson": {
+    "chapterOf": "الفصل {current} من {total}",
+    "markComplete": "تحديد كمكتمل",
+    "nextChapter": "الفصل التالي",
+    "previousChapter": "الفصل السابق",
+    "quizTitle": "اختبار تفاعلي",
+    "quizSubmit": "إرسال الإجابة",
+    "quizCorrect": "إجابة صحيحة! أحسنت.",
+    "quizWrong": "إجابة خاطئة. حاول مرة أخرى!",
+    "quizScore": "درجتك: {score}%",
+    "aiMentorTitle": "موجه البرمجة الذكي",
+    "aiMentorPlaceholder": "اسألني أي سؤال في البرمجة...",
+    "aiMentorSend": "إرسال",
+    "aiThinking": "جاري التفكير...",
+    "debugMode": "وضع التصحيح",
+    "explainThis": "اشرح لي هذا الكود"
+  },
+  "auth": {
+    "signIn": "تسجيل الدخول",
+    "signUp": "إنشاء حساب",
+    "signOut": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "continueWithGoogle": "متابعة باستخدام Google",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "noAccount": "ليس لديك حساب؟ سجل الآن",
+    "alreadyAccount": "لديك حساب بالفعل؟ سجل الدخول"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "language": "اللغة",
+    "theme": "المظهر",
+    "themeLight": "فاتح",
+    "themeDark": "داكن",
+    "themeSystem": "النظام",
+    "account": "معلومات الحساب",
+    "dangerZone": "منطقة الخطر",
+    "deleteAccount": "حذف الحساب",
+    "notifications": "الإشعارات",
+    "notificationsLabel": "إشعارات البريد الإلكتروني والهاتف",
+    "notificationsDesc": "تلقي تحديثات حول إصدارات الدورات التدريبية والإنجازات وتوصيات الموجه.",
+    "resetButton": "إعادة ضبط جميع الإعدادات",
+    "resetConfirm": "هل أنت متأكد من رغبتك في إعادة ضبط إعداداتك؟ (سيتم إعادة ضبط المظهر إلى النظام)",
+    "resetSuccess": "تمت إعادة ضبط الإعدادات إلى القيم الافتراضية بنجاح."
+  },
+  "errors": {
+    "notFound": "الصفحة غير موجودة",
+    "serverError": "خطأ داخلي في الخادم",
+    "unauthorized": "دخول غير مصرح به",
+    "tryAgain": "حاول مرة أخرى"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "back": "رجوع",
+    "next": "التالي",
+    "yes": "نعم",
+    "no": "لا",
+    "search": "بحث",
+    "close": "إغلاق",
+    "learnMore": "اقرأ المزيد"
+  }
+}
