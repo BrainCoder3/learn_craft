@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: LearnCraft",
+  "description": "A high-fidelity full-stack learning platform web application focused on chapters, lessons, quizzes, hands-on projects, progress tracking, and developer hub.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

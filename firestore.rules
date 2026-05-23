@@ -1,0 +1,62 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Common helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    // Rules for users collection
+    match /users/{userId} {
+      allow read, write: if isSignedIn();
+    }
+
+    // Rules for profiles collection
+    match /profiles/{profileId} {
+      allow read: if isSignedIn();
+      allow write: if isSignedIn() && request.auth.uid == profileId;
+    }
+
+    // Rules for courses and subcollections (chapters/items)
+    match /courses/{courseId} {
+      allow read, write: if true;
+      
+      match /chapters/{chapterId} {
+        allow read, write: if true;
+        
+        match /items/{itemId} {
+          allow read, write: if true;
+        }
+      }
+    }
+
+    // Rules for progress tracker collection
+    match /progress/{progressId} {
+      allow read, write: if isSignedIn();
+    }
+
+    // Rules for community threads collection & replies subcollection
+    match /community/{postId} {
+      allow read, write: if true;
+
+      match /replies/{replyId} {
+        allow read, write: if true;
+      }
+    }
+
+    // Rules for project submissions
+    match /submissions/{submissionId} {
+      allow read, write: if isSignedIn();
+    }
+
+    // Rules for earned certificates
+    match /certificates/{certId} {
+      allow read, write: if isSignedIn();
+    }
+  }
+}

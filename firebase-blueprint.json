@@ -1,0 +1,205 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Represents a registered engineer user inside the system.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier of the user (usr-...)"
+        },
+        "email": {
+          "type": "string",
+          "description": "Email address of the engineer profile"
+        },
+        "name": {
+          "type": "string",
+          "description": "Full name of the engineer"
+        },
+        "passwordHash": {
+          "type": "string",
+          "description": "Secure hashing of user password"
+        },
+        "salt": {
+          "type": "string",
+          "description": "Crypto salt parameter used in hashing password credentials"
+        },
+        "joinedAt": {
+          "type": "string",
+          "description": "Timestamp when the user registered"
+        }
+      },
+      "required": ["id", "email", "name", "passwordHash", "salt", "joinedAt"]
+    },
+    "Course": {
+      "title": "Course",
+      "description": "A syllabus course details definition.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "category": { "type": "string" },
+        "difficulty": { "type": "string" },
+        "duration": { "type": "string" },
+        "studentCount": { "type": "number" },
+        "thumbnail": { "type": "string" }
+      },
+      "required": ["id", "title", "description", "category", "difficulty", "duration", "studentCount", "thumbnail"]
+    },
+    "Chapter": {
+      "title": "Chapter",
+      "description": "A module chapter belonging to a course syllabus.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "courseId": { "type": "string" },
+        "chapterNumber": { "type": "number" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "lessonCount": { "type": "number" },
+        "duration": { "type": "string" }
+      },
+      "required": ["id", "courseId", "chapterNumber", "title", "description", "lessonCount", "duration"]
+    },
+    "LearningItem": {
+      "title": "LearningItem",
+      "description": "A core syllabus lesson, interactive exercise quiz or hands-on workspace project.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "chapterId": { "type": "string" },
+        "courseId": { "type": "string" },
+        "title": { "type": "string" },
+        "order": { "type": "number" },
+        "type": { "type": "string", "enum": ["lesson", "exercise", "project"] },
+        "content": { "type": "string" },
+        "question": { "type": "string" },
+        "options": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "answer": { "type": "string" },
+        "requirements": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "hints": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["id", "chapterId", "courseId", "title", "order", "type"]
+    },
+    "UserProgress": {
+      "title": "UserProgress",
+      "description": "Completed checkpoints recorded for user sessions.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "itemId": { "type": "string" },
+        "courseId": { "type": "string" },
+        "completed": { "type": "boolean" },
+        "submittedAnswer": { "type": "string" },
+        "completedAt": { "type": "string" }
+      },
+      "required": ["userId", "itemId", "courseId", "completed"]
+    },
+    "CommunityPost": {
+      "title": "CommunityPost",
+      "description": "Discussion post within the LearnCraft forums board.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "authorName": { "type": "string" },
+        "authorEmail": { "type": "string" },
+        "category": { "type": "string" },
+        "likes": { "type": "number" },
+        "likedBy": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "commentsCount": { "type": "number" },
+        "createdAt": { "type": "string" },
+        "comments": {
+          "type": "array",
+          "description": "Embedded comments objects matching PostComment contract schema"
+        }
+      },
+      "required": ["id", "title", "content", "authorName", "authorEmail", "category", "likes", "likedBy", "commentsCount", "createdAt"]
+    },
+    "ProjectSubmission": {
+      "title": "ProjectSubmission",
+      "description": "Submissions completed by users detailing workspace source files.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "userEmail": { "type": "string" },
+        "userName": { "type": "string" },
+        "itemId": { "type": "string" },
+        "itemTitle": { "type": "string" },
+        "courseId": { "type": "string" },
+        "submissionText": { "type": "string" },
+        "status": { "type": "string", "enum": ["pending", "reviewed"] },
+        "feedback": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "userId", "userEmail", "userName", "itemId", "itemTitle", "courseId", "submissionText", "status", "feedback", "createdAt"]
+    },
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Custom developer profile info: bio, customized avatar emoji, connected GitHub username, actual learning streak count, joined time",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "bio": { "type": "string" },
+        "avatar": { "type": "string" },
+        "github": { "type": "string" },
+        "streak": { "type": "number" },
+        "joinedAt": { "type": "string" }
+      },
+      "required": ["id", "userId", "email", "displayName", "streak", "joinedAt"]
+    }
+  },
+  "firestore": {
+    "users": {
+      "schema": "User",
+      "description": "User accounts indexed by ID"
+    },
+    "profiles": {
+      "schema": "UserProfile",
+      "description": "Comprehensive developer profile statistics"
+    },
+    "courses": {
+      "schema": "Course",
+      "description": "Course information catalogues"
+    },
+    "chapters": {
+      "schema": "Chapter",
+      "description": "Chapters syllabus hierarchy details"
+    },
+    "items": {
+      "schema": "LearningItem",
+      "description": "Individual items syllabus tasks, exercises, lessons & projects"
+    },
+    "progress": {
+      "schema": "UserProgress",
+      "description": "Progress mapping indicating checkpoints completed"
+    },
+    "posts": {
+      "schema": "CommunityPost",
+      "description": "Forum posts with comments streams"
+    },
+    "submissions": {
+      "schema": "ProjectSubmission",
+      "description": "Student repositories for design review audits"
+    }
+  }
+}

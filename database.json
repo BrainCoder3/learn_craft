@@ -1,0 +1,2114 @@
+{
+  "users": [
+    {
+      "id": "usr-6eb2268e-4b5d-4930-9c77-2b09f72d18fe",
+      "email": "developer@learncraft.com",
+      "name": "Demo Developer",
+      "passwordHash": "9f65bfd2c656559f3312947a33d0d5c4fe6719d7f2dcf0c7a1cbc1db937a797c4a47c4d5da388a1242aea5eaa0c461b6d88bbf14bc62edb67daf20ee43cce612",
+      "salt": "dfed1548e1c37b2553613e3d0b35ff7f",
+      "joinedAt": "2026-05-22T09:02:03.819Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ts-advanced",
+      "title": "Maîtriser TypeScript et les systèmes de types avancés",
+      "description": "Maîtrisez les options strictes du compilateur, les génériques avancés, les types conditionnels, les constructions mappées et les modèles optimisés pour les performances.",
+      "category": "Software Architecture",
+      "difficulty": "Advanced",
+      "duration": "18 hours",
+      "studentCount": 1240,
+      "thumbnail": "https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=400&auto=format&fit=crop&q=80",
+      "icon": "https://images.unsplash.com/photo-1618401471353-b98aedd07871?w=150&h=150&fit=crop&auto=format&q=80"
+    },
+    {
+      "id": "fullstack-express",
+      "title": "Architecture d'API Fullstack avec Express et SQLite",
+      "description": "Créez des moteurs de serveur de puissance industrielle, des passerelles sécurisées JSON Web Token, des requêtes relationnelles atomiques et des cascades de middleware optimisées.",
+      "category": "Backend Engineering",
+      "difficulty": "Intermediate",
+      "duration": "14 hours",
+      "studentCount": 980,
+      "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&auto=format&fit=crop&q=80",
+      "icon": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=150&h=150&fit=crop&auto=format&q=80"
+    },
+    {
+      "id": "py-basic",
+      "title": "Python de base",
+      "description": "Maîtrisez les scripts clairs, les liaisons de variables, les déclencheurs conditionnels, les boucles de flux, les listes, les clés et les plans orientés objet en partant de zéro.",
+      "category": "Backend Engineering",
+      "difficulty": "Beginner",
+      "duration": "10 hours",
+      "studentCount": 1540,
+      "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&auto=format&fit=crop&q=80",
+      "icon": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=150&h=150&fit=crop&auto=format&q=80"
+    },
+    {
+      "id": "py-ds",
+      "title": "Python pour la science des données",
+      "description": "Acquérir des compétences quantitatives approfondies. Commencez par les structures de base jusqu'à la POO et passez directement à la modélisation d'ensembles de données propres, aux agrégats statistiques, aux matrices NumPy et aux superbes tracés visuels.",
+      "category": "Data Science",
+      "difficulty": "Intermediate",
+      "duration": "16 hours",
+      "studentCount": 2240,
+      "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&auto=format&fit=crop&q=80",
+      "icon": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=150&h=150&fit=crop&auto=format&q=80"
+    },
+    {
+      "id": "py-game",
+      "title": "Python pour les développeurs de jeux vidéo",
+      "description": "Apprenez les mécanismes de programmation standard de Scratch à la POO et créez immédiatement de vrais moteurs de jeu, des grilles de rendu interactives, des événements sonores, des claviers personnalisés, des vecteurs de sprites et des trackers de collisions à haute fréquence.",
+      "category": "Game Programming",
+      "difficulty": "Intermediate",
+      "duration": "16 hours",
+      "studentCount": 1840,
+      "thumbnail": "https://images.unsplash.com/photo-1553481187-be93c21490a9?w=400&auto=format&fit=crop&q=80",
+      "icon": "https://images.unsplash.com/photo-1612287230202-1bf1d85d1bdf?w=150&h=150&fit=crop&auto=format&q=80"
+    },
+    {
+      "id": "electronics-current",
+      "title": "Electrical Current & Circuit Basics",
+      "description": "Explore the secrets of electricity! Understand voltage, current (Amps), resistance (Ohms), Ohm's Law, and how current flows through series and parallel circuits with interactive simulation steps.",
+      "category": "Electronics",
+      "difficulty": "Beginner",
+      "duration": "4 hours",
+      "studentCount": 420,
+      "thumbnail": "https://images.unsplash.com/photo-1517420712360-abb07ca268f8?w=400&auto=format&fit=crop&q=80",
+      "icon": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=150&h=150&fit=crop&auto=format&q=80"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch-ts-1",
+      "courseId": "ts-advanced",
+      "chapterNumber": 1,
+      "title": "Typage structurel et rétrécissement des types",
+      "description": "Learn structural contracts, literal interfaces, and type discriminators inside the compiler parsing loop.",
+      "lessonCount": 2,
+      "duration": "4 hours"
+    },
+    {
+      "id": "ch-ts-2",
+      "courseId": "ts-advanced",
+      "chapterNumber": 2,
+      "title": "Génériques et contraintes polymorphes",
+      "description": "Master generics mapping, keyof lookup operations, and strict parameter extends statements.",
+      "lessonCount": 2,
+      "duration": "4 hours"
+    },
+    {
+      "id": "ch-ts-3",
+      "courseId": "ts-advanced",
+      "chapterNumber": 3,
+      "title": "Conditions ternaires et structures cartographiées",
+      "description": "Dive deep into T extends U ? X : Y, distributive mappings, template string typography, and deep-readonly helpers.",
+      "lessonCount": 2,
+      "duration": "5 hours"
+    },
+    {
+      "id": "ch-ts-4",
+      "courseId": "ts-advanced",
+      "chapterNumber": 4,
+      "title": "Décorateurs ECMAScript et injection de dépendances",
+      "description": "Harness class interceptors, metadata caches, method annotations, and dependency inversion architectures.",
+      "lessonCount": 2,
+      "duration": "5 hours"
+    },
+    {
+      "id": "ch-exp-1",
+      "courseId": "fullstack-express",
+      "chapterNumber": 1,
+      "title": "Moteurs express et cycles de vie des requêtes",
+      "description": "Unpack standard HTTP streams, route parsing, middleware isolation, and robust JSON parser handlers.",
+      "lessonCount": 2,
+      "duration": "3 hours"
+    },
+    {
+      "id": "ch-exp-2",
+      "courseId": "fullstack-express",
+      "chapterNumber": 2,
+      "title": "Persistances des données et moteurs SQLite",
+      "description": "Engineer database models, safe parameterized bindings, and transactional unit operations under concurrency.",
+      "lessonCount": 2,
+      "duration": "3.5 hours"
+    },
+    {
+      "id": "ch-exp-3",
+      "courseId": "fullstack-express",
+      "chapterNumber": 3,
+      "title": "Authentification, hachage de mot de passe et JWT",
+      "description": "Establish secure cookie channels, crypto-salted credentials verification, claims validation, and logout gates.",
+      "lessonCount": 2,
+      "duration": "4 hours"
+    },
+    {
+      "id": "ch-exp-4",
+      "courseId": "fullstack-express",
+      "chapterNumber": 4,
+      "title": "Événements en streaming et passerelles API",
+      "description": "Build server-sent messaging loops, memory-efficient buffering, query optimizations, and rate throttlers.",
+      "lessonCount": 2,
+      "duration": "3.5 hours"
+    },
+    {
+      "id": "ch-py-basic-1",
+      "courseId": "py-basic",
+      "chapterNumber": 1,
+      "title": "Introduction à Python et aux variables simples",
+      "description": "Start from scratch. Learn how Python's interpreter compiles code, declare simple variables, and utilize dynamic string formats.",
+      "lessonCount": 8,
+      "duration": "3 hours"
+    },
+    {
+      "id": "ch-py-basic-2",
+      "courseId": "py-basic",
+      "chapterNumber": 2,
+      "title": "Collections de flux de contrôle, de boucles et de listes",
+      "description": "Master logical evaluation sequences. Build multi-branch conditionals, learn while loops, for loops, and index-based lists.",
+      "lessonCount": 4,
+      "duration": "4 hours"
+    },
+    {
+      "id": "ch-py-basic-3",
+      "courseId": "py-basic",
+      "chapterNumber": 3,
+      "title": "Fonctions, modules et contrôles de portée",
+      "description": "Learn the principles of program decomposition. Define arguments, default parameters, and organize reusable modules.",
+      "lessonCount": 4,
+      "duration": "4 hours"
+    },
+    {
+      "id": "ch-py-basic-4",
+      "courseId": "py-basic",
+      "chapterNumber": 4,
+      "title": "Programmation orientée objet (classes et objets)",
+      "description": "Evolve to architectural design patterns. Construct classes, initialize structures, learn inheritance, encapsulation, and overrides.",
+      "lessonCount": 4,
+      "duration": "5 hours"
+    },
+    {
+      "id": "ch-py-ds-1",
+      "courseId": "py-ds",
+      "chapterNumber": 1,
+      "title": "Introduction à Python et aux variables simples",
+      "description": "Start from scratch. Learn how Python's interpreter compiles code, declare simple variables, and utilize dynamic string formats.",
+      "lessonCount": 8,
+      "duration": "3 hours"
+    },
+    {
+      "id": "ch-py-ds-2",
+      "courseId": "py-ds",
+      "chapterNumber": 2,
+      "title": "Collections de flux de contrôle, de boucles et de listes",
+      "description": "Master logical evaluation sequences. Build multi-branch conditionals, learn while loops, for loops, and index-based lists.",
+      "lessonCount": 4,
+      "duration": "4 hours"
+    },
+    {
+      "id": "ch-py-ds-3",
+      "courseId": "py-ds",
+      "chapterNumber": 3,
+      "title": "Fonctions, modules et contrôles de portée",
+      "description": "Learn the principles of program decomposition. Define arguments, default parameters, and organize reusable modules.",
+      "lessonCount": 4,
+      "duration": "4 hours"
+    },
+    {
+      "id": "ch-py-ds-4",
+      "courseId": "py-ds",
+      "chapterNumber": 4,
+      "title": "Programmation orientée objet (classes et objets)",
+      "description": "Evolve to architectural design patterns. Construct classes, initialize structures, learn inheritance, encapsulation, and overrides.",
+      "lessonCount": 4,
+      "duration": "5 hours"
+    },
+    {
+      "id": "ch-py-ds-5",
+      "courseId": "py-ds",
+      "chapterNumber": 5,
+      "title": "Analyse brute avec NumPy et Pandas",
+      "description": "Unleash dataset manipulation powers. Handle dimensions matrices, parse custom rows, clean null entries.",
+      "lessonCount": 4,
+      "duration": "4 hours"
+    },
+    {
+      "id": "ch-py-ds-6",
+      "courseId": "py-ds",
+      "chapterNumber": 6,
+      "title": "Graphiques et visualisations Matplotlib",
+      "description": "Present statistics and trends clearly. Build line graphs, histogram splits, customized labels.",
+      "lessonCount": 4,
+      "duration": "4 hours"
+    },
+    {
+      "id": "ch-py-game-1",
+      "courseId": "py-game",
+      "chapterNumber": 1,
+      "title": "Introduction à Python et aux variables simples",
+      "description": "Start from scratch. Learn how Python's interpreter compiles code, declare simple variables, and utilize dynamic string formats.",
+      "lessonCount": 8,
+      "duration": "3 hours"
+    },
+    {
+      "id": "ch-py-game-2",
+      "courseId": "py-game",
+      "chapterNumber": 2,
+      "title": "Collections de flux de contrôle, de boucles et de listes",
+      "description": "Master logical evaluation sequences. Build multi-branch conditionals, learn while loops, for loops, and index-based lists.",
+      "lessonCount": 4,
+      "duration": "4 hours"
+    },
+    {
+      "id": "ch-py-game-3",
+      "courseId": "py-game",
+      "chapterNumber": 3,
+      "title": "Fonctions, modules et contrôles de portée",
+      "description": "Learn the principles of program decomposition. Define arguments, default parameters, and organize reusable modules.",
+      "lessonCount": 4,
+      "duration": "4 hours"
+    },
+    {
+      "id": "ch-py-game-4",
+      "courseId": "py-game",
+      "chapterNumber": 4,
+      "title": "Programmation orientée objet (classes et objets)",
+      "description": "Evolve to architectural design patterns. Construct classes, initialize structures, learn inheritance, encapsulation, and overrides.",
+      "lessonCount": 4,
+      "duration": "5 hours"
+    },
+    {
+      "id": "ch-py-game-5",
+      "courseId": "py-game",
+      "chapterNumber": 5,
+      "title": "Terrains de jeux : boucles de jeu et coordonnées de la grille",
+      "description": "Learn the clockwork behind real-time simulation engines. Structure game loops, frame calculations, and user keyboards ticks.",
+      "lessonCount": 4,
+      "duration": "4 hours"
+    },
+    {
+      "id": "ch-py-game-6",
+      "courseId": "py-game",
+      "chapterNumber": 6,
+      "title": "Éléments de sprite vectoriels interactifs",
+      "description": "Create moving actors. Control sprite speed, register bounding box hits, and increment scores.",
+      "lessonCount": 4,
+      "duration": "4 hours"
+    },
+    {
+      "id": "ch-el-curr-1",
+      "courseId": "electronics-current",
+      "chapterNumber": 1,
+      "title": "What is Electrical Current?",
+      "description": "Understand the principles of electron flow inside metals, charge accumulation, and the standard Ampere unit.",
+      "lessonCount": 2,
+      "duration": "1 hour"
+    },
+    {
+      "id": "ch-el-curr-2",
+      "courseId": "electronics-current",
+      "chapterNumber": 2,
+      "title": "Voltage, Resistance and Ohm's Law",
+      "description": "Master voltage pushing force, materials resistance (Ohms), and the golden formula: V = I * R.",
+      "lessonCount": 3,
+      "duration": "2 hours"
+    }
+  ],
+  "items": [
+    {
+      "id": "item-ts-1-1",
+      "chapterId": "ch-ts-1",
+      "courseId": "ts-advanced",
+      "title": "Théorie : Contrats structurels vs typage nominal",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Typage structurel dans TypeScript\n\nTypeScript utilise le **typage structurel** (souvent appelé « typage canard ») pour déterminer la compatibilité. Cela diffère des langages comme C# ou Java, qui sont **nominalement typés** où une hiérarchie de classes explicite définit les affectations.\n\n### Règle standard : correspondance de forme\nSi deux objets partagent exactement la même forme (clés et types compatibles), ils sont considérés comme assignables l'un à l'autre :\n\n```dactylographié\nutilisateur de l'interface {\n  identifiant : chaîne ;\n  nom : chaîne ;\n}\n\ninterface Client {\n  identifiant : chaîne ;\n  nom : chaîne ;\n}\n\nlaissez l'utilisateur connecté : utilisateur = { id : 'usr-44', nom : 'Alice' } ;\nlaissez client : Client = utilisateur connecté ; // ✅ Complètement légal !\n```\n\nÉtant donné que le compilateur évalue la **structure** plutôt que le nom du type déclaré, « client » accepte toute structure correspondant à « Client ».\n\n### Avantages de la composition structurelle\n- Conception modulaire déverrouillée sans imbrication d'héritage profonde.\n- Simplifie les tests unitaires moqueurs et automatisés.\n- Représente naturellement les structures JSON extraites des API."
+    },
+    {
+      "id": "item-ts-1-2",
+      "chapterId": "ch-ts-1",
+      "courseId": "ts-advanced",
+      "title": "Théorie : types d’unions et marquage discriminé",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Syndicats discriminés\n\nUne **union discriminée** (ou union étiquetée) est une superpuissance architecturale dans TypeScript. Il permet à votre code d'affiner les formes larges en toute sécurité en isolant une propriété commune appelée **discriminateur**.\n\n### Éléments de balisage :\n1. Les interfaces partagent une seule propriété commune avec différents types littéraux.\n2. Le compilateur utilise cette propriété pour restreindre automatiquement le type à l'intérieur des conditions.\n\n```dactylographié\ninterface Cercle {\n  genre : « cercle » ;\n  rayon : nombre ;\n}\n\ninterface Carré {\n  genre : « carré » ;\n  côté : numéro ;\n}\n\ntapez Forme = Cercle | Carré;\n\nfunction calculateArea (forme : Forme) : nombre {\n  changer (forme.kind) {\n    cas 'cercle' :\n      // Compilateur étroit : la forme est Cercle !\n      return Math.PI * shape.radius ** 2;\n    cas 'carré' :\n      // Compilateur étroit : la forme est carrée !\n      return shape.side * shape.side;\n  }\n}\n```\n\nEn vérifiant « shape.kind », vous exécutez une logique d'exécution de type sécurisé soutenue par des compilations statiques. Si vous ajoutez une interface « Triangle », le système peut déclencher des erreurs si l'instruction switch la manque."
+    },
+    {
+      "id": "item-ts-1-3",
+      "chapterId": "ch-ts-1",
+      "courseId": "ts-advanced",
+      "title": "Quiz interactif : identifier le discriminateur",
+      "order": 3,
+      "type": "exercise",
+      "question": "Regardez la déclaration de type :\n```dactylographié\ntapez APIRéponse = \n  | { tapez : 'succès' ; données : chaîne[] } \n  | { tapez : 'erreur'; message : chaîne ; code : numéro } ;\n```\nQuelle propriété joue le rôle de « discriminateur » structurel lors des instructions conditionnelles de rétrécissement de type ?",
+      "options": [
+        "Le tableau de paramètres \"data\"",
+        "La chaîne de texte \"message\"",
+        "Le paramètre littéral de chaîne personnalisé « type »",
+        "Le statut numérique du code personnalisé"
+      ],
+      "answer": "Le paramètre littéral de chaîne personnalisé « type »"
+    },
+    {
+      "id": "item-ts-1-4",
+      "chapterId": "ch-ts-1",
+      "courseId": "ts-advanced",
+      "title": "Projet pratique : moteur de gestion de tâches strict",
+      "order": 4,
+      "type": "project",
+      "requirements": "Définir des schémas d'état avec les états : \"todo\" | \"en_progrès\" | \"done\".,Créez un utilitaire filterTasks (tâches, critères) en utilisant une vérification discriminée.,Construisez une fonction de réduction de charge utile qui rejette les états de transition illégaux (par exemple, de \"todo\" directement à \"done\" sans passer par \"in_progress\").",
+      "hints": [
+        "Définissez une propriété d'union \"statut\" explicite pour guider les évaluations de forme.",
+        "N'oubliez pas de vérifier les types dans les cas de commutation pour déclencher des vérifications naturelles du compilateur."
+      ]
+    },
+    {
+      "id": "item-ts-2-1",
+      "chapterId": "ch-ts-2",
+      "courseId": "ts-advanced",
+      "title": "Théorie : principes des génériques polymorphes",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Travailler avec des génériques polymorphes\n\nLes génériques dans TypeScript vous permettent de déclarer des éléments de code qui fonctionnent avec plusieurs types tout en préservant une fidélité de type stricte. Au lieu de recourir à « any » (qui supprime la sécurité compilée), les génériques créent des liaisons de paramètres directes.\n\n### Fonctions génériques\nConsidérons une fonction d'identité :\n\n```dactylographié\nidentité de fonction<T>(arg: T): T {\n  retourner l'argument ;\n}\n\nconst n = identité<numéro>(45); // Le type de n est un nombre\nconst s = identité<string>('code'); // Le type de s est une chaîne\n```\n\nChaque fois que vous appelez « identity », TypeScript est capable de capturer automatiquement l'argument de type, vous permettant d'omettre les qualificatifs de type explicites entre parenthèses :\n\n```dactylographié\nconst salutation = identité('Bonjour ! '); // TypeScript déduit T=string\n```\n\nCette nature polymorphe est extrêmement utile pour structurer les chargeurs de données, les filtres et les couches de cache dynamique."
+    },
+    {
+      "id": "item-ts-2-2",
+      "chapterId": "ch-ts-2",
+      "courseId": "ts-advanced",
+      "title": "Théorie : verrouiller les génériques avec des contraintes",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Contraintes génériques utilisant des extensions\n\nPar défaut, un `<T>` générique sans contrainte pourrait représenter *n'importe quoi* (nombres, classes, tableaux, valeurs nulles). Souvent, vous souhaitez exiger que les types possèdent certaines colonnes ou formes principales. Ceci est réalisé en utilisant le mot-clé « extends ».\n\n### Préserver les attributs\nÉcrivons une fonction qui inspecte le paramètre `id` d'un élément :\n\n```dactylographié\ninterface Identifiable {\n  identifiant : chaîne ;\n}\n\nfunction processRecord<T extends Identifiable>(record: T): string {\n  console.log(\"Travailler avec un enregistrement structurel : \" + record.id);\n  retourner record.id;\n}\n```\n\nDésormais, `processRecord` acceptera n'importe quel objet tant qu'il a un champ `id` de type chaîne !\n\n```dactylographié\nprocessRecord({ id : 'rec-20', nom : 'Server DB' }); // ✅ Autorisé !\nprocessusEnregistrement(42); // ❌ Erreur ! Le numéro n’implémente pas Identifiable.\n```\n\nCette technique crée des contrats personnalisés, renforçant un typage strict à l’échelle de l’application."
+    },
+    {
+      "id": "item-ts-2-3",
+      "chapterId": "ch-ts-2",
+      "courseId": "ts-advanced",
+      "title": "Quiz interactif : Préserver la fidélité des entrées du tableau",
+      "order": 3,
+      "type": "exercise",
+      "question": "Expliquez pourquoi utiliser des génériques de haut niveau tels que :\n```dactylographié\nfunction first<T>(arr: T[]): T { return arr[0]; }\n```\nest largement supérieur à l’écriture :\n```dactylographié\nfunction first(arr: any[]): any { return arr[0]; }\n```?",
+      "options": [
+        "Il réduit le poids du paquet de fichiers d'actifs compilés",
+        "Il préserve la définition précise du type depuis les entrées du tableau jusqu'aux retours de sortie.",
+        "Il déclenche un nettoyage instantané des déchets Javascript",
+        "Il force tous les index à utiliser par défaut les index de chaîne"
+      ],
+      "answer": "Il préserve la définition précise du type depuis les entrées du tableau jusqu'aux retours de sortie."
+    },
+    {
+      "id": "item-ts-2-4",
+      "chapterId": "ch-ts-2",
+      "courseId": "ts-advanced",
+      "title": "Projet pratique : registre de cache polymorphe",
+      "order": 4,
+      "type": "project",
+      "requirements": "Construire une classe wrapper de cache GenericCache<T, K extends string | number>.,Assurez-vous que les méthodes set() et get() valident les contraintes de structure.,Implémentez une fonction expire() avec des métriques de temps personnalisées.",
+      "hints": [
+        "Configurez un Map<K privé, { value: T; chargéAt : numéro }> en interne.",
+        "Vérifiez les décalages horaires lors de la récupération des valeurs."
+      ]
+    },
+    {
+      "id": "item-ts-3-1",
+      "chapterId": "ch-ts-3",
+      "courseId": "ts-advanced",
+      "title": "Théorie : opérateurs conditionnels principaux",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Mappages conditionnels dans TypeScript\n\nLes types conditionnels correspondent aux opérations de type dans un modèle d'expression ternaire :\n\n```dactylographié\nT étend U ? X : Oui\n```\n\nSi « T » est attribuable à « U », évaluez-le en « X » ; sinon, évaluez à « Y ».\n\n### Applications avancées : exclusion des types\nExaminons comment TypeScript définit les structures intégrées telles que « Exclure » :\n\n```dactylographié\ntapez Exclude<T, U> = T étend U ? jamais : T;\n```\n\nÉvaluation de `Exclude<'a' | 'b' | 'c', 'a'>` distribue à travers l'union :\n- ``a' étend 'a' ? jamais : 'a'` -> `jamais`\n- ``b' étend 'a' ? jamais : 'b'` -> ``b'`\n- ``c' étend 'a' ? jamais : 'c'` -> ``c'`\n\nUnion résultante : « b » | 'c'' ! Ce modèle débloque des capacités infinies de gestion d’état."
+    },
+    {
+      "id": "item-ts-3-2",
+      "chapterId": "ch-ts-3",
+      "courseId": "ts-advanced",
+      "title": "Théorie : types cartographiés et transformations structurelles",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Types mappés\n\nLes types mappés vous permettent de créer de nouveaux types basés sur une ancienne présentation. Il fonctionne de manière similaire au tableau `.map()` mais mappe sur les clés d'objet :\n\n```dactylographié\ntapez OnlyBooleans<T> = {\n  [K en clé de T] : booléen ;\n} ;\n```\n\nSi nous appliquons cela à une interface `Utilisateur` :\n```dactylographié\nutilisateur de l'interface {\n  identifiant : chaîne ;\n  nom : chaîne ;\n}\n\ntapez UserFlags = OnlyBooleans<Utilisateur>;\n// Équivalent à :\n// { identifiant : booléen ; nom : booléen ; }\n```\n\n### Lecture seule et modificateurs facultatifs\nVous pouvez ajouter ou soustraire des drapeaux en utilisant `+` ou `-` :\n```dactylographié\ntapez DeepMutable<T> = {\n  -readonly [K dans la clé de T] : T[K] ; // Supprime les en-têtes en lecture seule !\n} ;\n```\n\nLa combinaison d'opérateurs de type mappé avec des conditions conditionnelles permet à des bibliothèques massives de créer des modèles de validation robustes."
+    },
+    {
+      "id": "item-ts-3-3",
+      "chapterId": "ch-ts-3",
+      "courseId": "ts-advanced",
+      "title": "Quiz interactif : évaluation des opérateurs d'inférence",
+      "order": 3,
+      "type": "exercise",
+      "question": "Quel mot-clé est utilisé dans les modèles de type conditionnel pour déclarer et extraire dynamiquement une variable de type sur une correspondance ?",
+      "options": [
+        "L'opérateur \"extraire\"",
+        "L'opérateur \"inférer\"",
+        "Le résolveur \"typeof\"",
+        "La balise \"étend\""
+      ],
+      "answer": "L'opérateur \"inférer\""
+    },
+    {
+      "id": "item-ts-3-4",
+      "chapterId": "ch-ts-3",
+      "courseId": "ts-advanced",
+      "title": "Projet pratique : utilitaire de type DeepReadonly",
+      "order": 4,
+      "type": "project",
+      "requirements": "Écrivez un utilitaire de type DeepReadonly<T> pour mapper les structures de manière récursive.,Implémentez les types de dictionnaires imbriqués et vérifiez les affectations de blocs du compilateur.,Assurez-vous que les éléments du tableau à l'intérieur des structures gelées sont profondément verrouillés.",
+      "hints": [
+        "Évaluer : T[P] étend la fonction ? T[P] : T[P] étend l'objet ? DeepReadonly<T[P]> : T[P]"
+      ]
+    },
+    {
+      "id": "item-ts-4-1",
+      "chapterId": "ch-ts-4",
+      "courseId": "ts-advanced",
+      "title": "Théorie : les décorateurs dans les architectures de classe",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Décorateurs ECMAScript\n\nTypeScript prend en charge les décorateurs, vous permettant d'intercepter les annotations de classe, les structures de propriétés et les définitions de méthodes actives au moment de l'exécution.\n\n### Décorateur de classe simple :\nUn décorateur de classe reçoit le constructeur de classe en cours de révision :\n\n```dactylographié\nfunction Logged (cible : n'importe quel, contexte : n'importe lequel) {\n  console.log(\"Annotation de l'instanciation de classe : \" + context.name);\n}\n\n@Connecté\nclasse UserService {\n  // Définition du service\n}\n```\n\n### Pourquoi utiliser des décorateurs ?\n- Encapsule les exigences transversales telles que la télémétrie, les journaux ou les métriques.\n- Applique les conteneurs d'injection de dépendances sur les nœuds de production."
+    },
+    {
+      "id": "item-ts-4-2",
+      "chapterId": "ch-ts-4",
+      "courseId": "ts-advanced",
+      "title": "Théorie : interception des signatures de méthodes",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Méthode Décorateurs\n\nLes décorateurs de méthodes vous permettent d'intercepter les déclencheurs de fonction pour encapsuler, auditer ou modifier leurs évaluations :\n\n```dactylographié\nfunction Mesure (cible : n'importe quel, contexte : n'importe lequel) {\n  fonction de retour (this : any, ...args : any[]) {\n    const start = performance.now();\n    const result = target.apply(this, args);\n    const end = performance.now();\n    console.log(\"Méthode exécutée dans \" + (fin - début) + \"ms\");\n    renvoyer le résultat ;\n  } ;\n}\n```\n\nL’utilisation de décorateurs dissocie clairement la collecte de métriques et les contrôles de sécurité des véritables modèles de domaine métier."
+    },
+    {
+      "id": "item-ts-4-3",
+      "chapterId": "ch-ts-4",
+      "courseId": "ts-advanced",
+      "title": "Quiz interactif : séquence du cycle de vie des décorateurs",
+      "order": 3,
+      "type": "exercise",
+      "question": "Quand les décorateurs TypeScript standard sont-ils évalués dans le cycle de vie d’exécution du navigateur ?",
+      "options": [
+        "Uniquement pendant la compilation",
+        "Une fois au moment de l'évaluation initiale du script pendant le chargement du module",
+        "Dynamiquement sur chaque déclencheur d'exécution de méthode distinct",
+        "Avant les connexions de prise réseau"
+      ],
+      "answer": "Une fois au moment de l'évaluation initiale du script pendant le chargement du module"
+    },
+    {
+      "id": "item-ts-4-4",
+      "chapterId": "ch-ts-4",
+      "courseId": "ts-advanced",
+      "title": "Projet pratique : conteneur d'injection de dépendances IoC",
+      "order": 4,
+      "type": "project",
+      "requirements": "Concevoir un décorateur de classe @Injectable mappant les dépendances actives.,Créer un registraire IoCContainer qui instancie automatiquement les singletons.,Écrire des assertions de méthode appliquant des injections d'exécution correctes.",
+      "hints": [
+        "Stockez les inscriptions dans une carte JS interne à l’intérieur du conteneur.",
+        "Récupérez des constructeurs à l’aide de prototypes de constructeurs structurels."
+      ]
+    },
+    {
+      "id": "item-exp-1-1",
+      "chapterId": "ch-exp-1",
+      "courseId": "fullstack-express",
+      "title": "Théorie : anatomie de base des cycles de vie des requêtes",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Flux de demande/réponse express\n\nUne application Express est essentiellement une chaîne de **middlewares** traitant les flux TCP entrants, validant les corps et renvoyant les en-têtes codés.\n\n### Cycle de vie d'une requête :\n1. **Connexion TCP** : la demande arrive au port.\n2. **Analyse par l'analyseur** : les bibliothèques internes mappent les en-têtes bruts du texte dans `req.headers`.\n3. **Chaîne de middleware** : les fonctions traitent, valident, injectent ou bloquent les charges utiles des requêtes.\n4. **Gestionnaire de point de terminaison** : la fonction finale renvoie des réponses via `res.json()` ou `res.send()`.\n\nComprendre chaque maillon de cette chaîne garantit performance et robustesse."
+    },
+    {
+      "id": "item-exp-1-2",
+      "chapterId": "ch-exp-1",
+      "courseId": "fullstack-express",
+      "title": "Théorie : contrôles middleware personnalisés",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Modèles de cascade de middleware\n\nLes middlewares reçoivent `req`, `res` et un rappel `next`. L'appel de `next()` avance l'exécution au gestionnaire suivant :\n\n```dactylographié\nconst requestLogger = (req : requête, res : réponse, suivant : NextFunction) => {\n  console.log(\"[\" + new Date().toISOString() + \"] \" + req.method + \" \" + req.url);\n  suivant(); // Passer le contrôle en avant\n}\n```\n\nSi un middleware ne parvient pas à déclencher `next()`, la requête se bloquera indéfiniment à moins qu'elle ne soit renvoyée via `res.status(403).json()` !"
+    },
+    {
+      "id": "item-exp-1-3",
+      "chapterId": "ch-exp-1",
+      "courseId": "fullstack-express",
+      "title": "Quiz interactif : chaînes de rappel suivantes personnalisées",
+      "order": 3,
+      "type": "exercise",
+      "question": "Dans une déclaration de middleware Express, que se passe-t-il si vous ne parvenez pas à invoquer la fonction « next() » ou à exécuter une terminaison réactive ?",
+      "options": [
+        "Express déclenche un vidage d'erreur automatique",
+        "Le flux réseau TCP attend indéfiniment et la requête du navigateur se bloque",
+        "Le système de nœuds redémarre automatiquement",
+        "Vite actualise automatiquement le chargeur de rechargement à chaud"
+      ],
+      "answer": "Le flux réseau TCP attend indéfiniment et la requête du navigateur se bloque"
+    },
+    {
+      "id": "item-exp-1-4",
+      "chapterId": "ch-exp-1",
+      "courseId": "fullstack-express",
+      "title": "Projet pratique : CORS et middleware d'audit de sécurité",
+      "order": 4,
+      "type": "project",
+      "requirements": "Créez des méthodes d'autorisation et de filtrage CORS personnalisées.,Écrivez des journaux de temps de réponse pour mesurer la latence du serveur en millisecondes.,Arrêtez les origines illégales et enregistrez les demandes dans les fichiers en toute sécurité.",
+      "hints": [
+        "Capturez les objets de date dans la demande et soustrayez les dates dans les hooks de fin.",
+        "Définissez manuellement les en-têtes « Access-Control-Allow-Origin » dans les gestionnaires."
+      ]
+    },
+    {
+      "id": "item-exp-2-1",
+      "chapterId": "ch-exp-2",
+      "courseId": "fullstack-express",
+      "title": "Théorie : schémas relationnels et moteurs SQL",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Bases de données relationnelles et SQLite\n\nSQLite est un moteur SQL rapide basé sur des fichiers et intégré aux environnements d'exécution des applications. Il fournit des garanties ACID sans démons de serveur séparés.\n\n### Création de tables avec des clés de schéma strictes :\n```sql\nUtilisateurs CREATE TABLE (\n  id TEXTE CLÉ PRIMAIRE,\n  email TEXTE UNIQUE NON NULL,\n  password_hash TEXTE NON NULL,\n  créé_à DATETIME DEFAULT CURRENT_TIMESTAMP\n);\n```\n\nL’utilisation de contraintes relationnelles garantit des structures propres dans les enregistrements."
+    },
+    {
+      "id": "item-exp-2-2",
+      "chapterId": "ch-exp-2",
+      "courseId": "fullstack-express",
+      "title": "Théorie : empêcher l'injection SQL",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Requêtes paramétrées\n\nUne erreur de sécurité fondamentale est la concaténation dynamique de chaînes pour les requêtes de base de données :\n```dactylographié\n// ❌ FAUX ! VULNÉRABLE AUX ATTAQUES !\nconst query = `SELECT * FROM utilisateurs WHERE emailKey = '${req.body.email}'`;\n```\nSi un pirate informatique soumet `admin@platform.com' OU '1'='1`, il contourne complètement l'autorisation !\n\n### Approche sécurisée : liaisons de paramètres\nConfigurez les espaces réservés :\n```dactylographié\n// ✅ SÉCURISÉ !\nconst stmt = db.prepare('SELECT * FROM utilisateurs WHERE emailKey = ?');\nconst utilisateur = stmt.get(req.body.email);\n```\nLe moteur SQL traite les valeurs liées comme de purs littéraux, sans jamais les exécuter comme syntaxe d'instruction."
+    },
+    {
+      "id": "item-exp-2-3",
+      "chapterId": "ch-exp-2",
+      "courseId": "fullstack-express",
+      "title": "Quiz interactif : éliminer l'injection SQL",
+      "order": 3,
+      "type": "exercise",
+      "question": "Quelle est la meilleure stratégie pour défendre les bases de données relationnelles contre les vulnérabilités d’injection SQL ?",
+      "options": [
+        "Utilisation des étapes de nettoyage manuel des chaînes",
+        "Conversion de toutes les entrées en minuscules",
+        "Forcer les instructions préparées et les espaces réservés paramétrés",
+        "Création de délais aléatoires sur les requêtes DB"
+      ],
+      "answer": "Forcer les instructions préparées et les espaces réservés paramétrés"
+    },
+    {
+      "id": "item-exp-2-4",
+      "chapterId": "ch-exp-2",
+      "courseId": "fullstack-express",
+      "title": "Projet pratique : utilitaire de transaction de couche de base de données",
+      "order": 4,
+      "type": "project",
+      "requirements": "Définissez des singletons de connexion à la base de données., Implémentez des transactions atomiques qui reviennent proprement en cas de crash des sous-requêtes., Ajoutez des schémas de migration d'utilisateurs avec des champs d'enregistrement d'audit.",
+      "hints": [
+        "En exécution SQL : BEGIN TRANSACTION, COMMIT et ROLLBACK.",
+        "Validez les sorties avec des blocs try-catch entourant les requêtes."
+      ]
+    },
+    {
+      "id": "item-exp-3-1",
+      "chapterId": "ch-exp-3",
+      "courseId": "fullstack-express",
+      "title": "Théorie : structure et sceaux des jetons Web JSON",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Jeton Web JSON (JWT)\n\nUn **JWT** est un mécanisme compact et autonome permettant de transmettre en toute sécurité des informations d'état entre les clients et les serveurs.\n\n### Structure JWT :\n1. **En-tête** : métadonnées contenant l'algorithme de signature.\n2. **Payload** : réclamations de l'utilisateur (userId, e-mail, rôle, expiration).\n3. **Signature** : Sceau cryptographique vérifiant l'authenticité du jeton.\n\nLe client stocke ce jeton dans « localStorage » ou dans des cookies sécurisés et l'attache à la charge utile des en-têtes de demande."
+    },
+    {
+      "id": "item-exp-3-2",
+      "chapterId": "ch-exp-3",
+      "courseId": "fullstack-express",
+      "title": "Théorie : hachage ou chiffrement",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Cryptographie des mots de passe\n\n**Les mots de passe ne doivent jamais être stockés sous forme de texte brut.** Si un pirate informatique compromet le stockage, les comptes sont entièrement divulgués.\n\n- **Cryptage** : système bidirectionnel (peut être déchiffré en texte brut).\n- **Hashing** : Transformation mathématique unidirectionnelle (ne peut pas être naturellement inversée).\n\n### Hachage avec du sel :\nL'ajout d'octets aléatoires (un sel) par utilisateur empêche les comparaisons **Rainbow Table**.\n\n```dactylographié\n// Hachage salé\nconst salt = crypto.randomBytes(16).toString('hex');\nconst hash = crypto.scryptSync(mot de passe, sel, 64).toString('hex');\n```\nCette technique garantit la sécurité même si les tables sont accessibles publiquement."
+    },
+    {
+      "id": "item-exp-3-3",
+      "chapterId": "ch-exp-3",
+      "courseId": "fullstack-express",
+      "title": "Quiz interactif : contrôles d'expiration des jetons",
+      "order": 3,
+      "type": "exercise",
+      "question": "Lors de la validation des jetons Web JSON sur les requêtes du serveur, quel paramètre de charge utile de revendication est vérifié pour appliquer les limites d'expiration ?",
+      "options": [
+        "Le paramètre \"issuedAt\" \"iat\"",
+        "Le paramètre \"expiresAt\" \"exp\"",
+        "L'identifiant \"sujet\" \"sub\"",
+        "L'identifiant « émetteur » « iss »"
+      ],
+      "answer": "Le paramètre \"expiresAt\" \"exp\""
+    },
+    {
+      "id": "item-exp-3-4",
+      "chapterId": "ch-exp-3",
+      "courseId": "fullstack-express",
+      "title": "Projet pratique : JWT Gateway Authenticator",
+      "order": 4,
+      "type": "project",
+      "requirements": "Point de terminaison du problème d'identification des informations d'identification JWT de l'auteur., Créer des en-têtes d'autorisation d'analyse du middleware de garde : Bearer <token>., Gérer le hachage au sel lors des inscriptions de nouveaux utilisateurs.",
+      "hints": [
+        "Lisez les en-têtes en utilisant : req.headers.authorization.",
+        "Validez les horodatages pour refuser les sessions expirées."
+      ]
+    },
+    {
+      "id": "item-exp-4-1",
+      "chapterId": "ch-exp-4",
+      "courseId": "fullstack-express",
+      "title": "Théorie : Architecture des événements envoyés par le serveur",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Événements envoyés par le serveur (SSE)\n\n**Server-Sent Events** est un modèle léger d'abonnement en temps réel sur HTTP simple. Contrairement aux WebSockets, il fonctionne de manière non directionnelle du serveur au client, évitant ainsi les échanges de connexion.\n\n### Configuration des en-têtes :\nPour démarrer un canal SSE, maintenez la connexion ouverte à l'aide d'en-têtes spécifiques :\n\n```dactylographié\nres.writeHead(200, {\n  'Content-Type' : 'texte/flux d'événements',\n  'Cache-Control' : 'pas de cache',\n  « Connexion » : « maintenir la vie »\n});\n```\n\n### Protocole de communication\nLes charges utiles doivent suivre un format de texte spécifique :\n```\ndata : { \"message\": \"Succès !\" }\\n\\n\n```\n\nParfait pour les tableaux de bord recevant des stocks, des activités de cours ou des flux de télémétrie en direct !"
+    },
+    {
+      "id": "item-exp-4-2",
+      "chapterId": "ch-exp-4",
+      "courseId": "fullstack-express",
+      "title": "Théorie : stratégies de limitation de débit",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Limitation et limitation de débit\n\nLa limitation du débit est cruciale pour prévenir les abus de ressources et les attaques par force brute sur les API.\n\n### Buckets de jetons à fenêtre coulissante/fixe\n- **Fenêtre fixe** : suit les tentatives IP dans des tranches de minutes spécifiques. Simple, mais vulnérable aux pointes aux limites.\n- **Token Bucket** : accorde aux utilisateurs un taux de recharge. Lisse les pointes éclatées avec grâce.\n\nLa mise en œuvre de limites au niveau des routes évite l'étouffement du processeur et les goulots d'étranglement de la base de données."
+    },
+    {
+      "id": "item-exp-4-3",
+      "chapterId": "ch-exp-4",
+      "courseId": "fullstack-express",
+      "title": "Quiz interactif : indicateurs SSE d'en-tête HTTP",
+      "order": 3,
+      "type": "exercise",
+      "question": "Quelle valeur d'en-tête « Content-Type » est strictement requise pour établir des flux fonctionnels d'événements envoyés par le serveur ?",
+      "options": [
+        "application/json",
+        "texte/flux d'événements",
+        "données multipart/formulaire",
+        "application/x-www-form-urlencoded"
+      ],
+      "answer": "texte/flux d'événements"
+    },
+    {
+      "id": "item-exp-4-4",
+      "chapterId": "ch-exp-4",
+      "courseId": "fullstack-express",
+      "title": "Projet pratique : Streaming Logger Gateway",
+      "order": 4,
+      "type": "project",
+      "requirements": "Établissez une route d'abonnement /api/events persistante.,Diffusez des indicateurs de notification lorsque les utilisateurs publient des publications dans la communauté.,Configurez des gestionnaires de nettoyage lorsque les instances d'utilisateurs se déconnectent.",
+      "hints": [
+        "Écoutez : req.on(\"close\", ...) pour élaguer les caches d'abonnés actifs.",
+        "Déclenchez des boucles d'événements personnalisées à l'aide d'EventEmitter javascript générique."
+      ]
+    },
+    {
+      "id": "item-py-basic-1-1",
+      "chapterId": "ch-py-basic-1",
+      "courseId": "py-basic",
+      "title": "Théorie : la boucle d'interprétation et l'affectation de variables",
+      "order": 1,
+      "type": "lesson",
+      "content": "## L'interpréteur Python et les variables dynamiques\n\nPython est un langage interprété, de haut niveau et typé dynamiquement. Contrairement aux langages compilés dans lesquels votre code est traduit en instructions machine binaires avant exécution, un programme utilitaire dynamique appelé **Python Interpreter** lit, analyse et évalue vos instructions ligne par ligne au moment de l'exécution.\n\n### Liaisons et affectation de variables\n\nEn Python, vous ne déclarez pas le type d'une variable avant de lui attribuer une valeur (pas de mots-clés comme `var`, `let` ou de descripteurs de type explicites comme `int` ou `String`). Créer une variable est aussi simple que de lier un nom à une référence d'objet à l'aide du signe égal (`=`) :\n\n```python\n# Liaisons de variables simples\nutilisateur_age = 22\nnom_utilisateur = \"Alex Mercer\"\nis_enrolled = Vrai\nnote_point_average = 3,92\n\nimprimer (nom_utilisateur)\nimprimer (utilisateur_age)\n```\n\n### Saisie dynamique et liaison de nom\n\nLorsque vous écrivez « x = 100 », Python alloue de la mémoire pour l'objet entier « 100 » et lui associe le nom « x ». Vous pouvez ensuite relier le même nom à une référence d'un type de données complètement différent :\n\n```python\nx = 100 # x est lié à un entier (int)\nx = \"Passé\" # Maintenant, x est lié à une chaîne (str)\n```\n\nCette nature dynamique rend Python très flexible mais nécessite de la discipline. Les meilleures pratiques suggèrent de conserver les noms de variables liés à un type cohérent tout au long de leur cycle de vie pour maintenir la clarté du code.\n\n### Conventions de dénomination des variables\n\nLes variables Python sont sensibles à la casse (`Age` et `age` sont distincts) et suivent la convention **snake_case**, où toutes les lettres sont en minuscules et les mots sont joints par des traits de soulignement (par exemple, `student_first_name`).",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-basic-1-2",
+      "chapterId": "ch-py-basic-1",
+      "courseId": "py-basic",
+      "title": "Quiz interactif : Mécanique de liaison variable",
+      "order": 2,
+      "type": "exercise",
+      "content": null,
+      "question": "Considérez cette séquence d'instructions :\n\nx = 42\ny = x\nx = 'Incroyable'\n\nQuelle est la valeur de la variable y en fin d’exécution ?",
+      "options": [
+        "valeur entière 42",
+        "valeur de chaîne 'Incroyable'",
+        "valeur entière 0",
+        "Aucun (déclenche une erreur de type d'exécution)"
+      ],
+      "answer": "valeur entière 42",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-basic-1-3",
+      "chapterId": "ch-py-basic-1",
+      "courseId": "py-basic",
+      "title": "Projet pratique : création d'un générateur de profil utilisateur",
+      "order": 3,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Déclarez quatre variables distinctes : user_name (chaîne), Rank_score (entier), success_rate (float) et is_admin (booléen).,Initialisez-les avec les valeurs descriptives de votre choix.,Imprimez chaque variable avec un message de sortie propre et étiqueté à l'aide de la fonction print().,Réaffectez success_rate à une nouvelle valeur flottante et imprimez le taux mis à jour.",
+      "hints": [
+        "Les valeurs booléennes en Python doivent commencer par une lettre majuscule : True ou False (pas vrai ou faux).",
+        "Utilisez des étiquettes descriptives telles que print('User Name:', user_name) pour organiser vos sorties."
+      ]
+    },
+    {
+      "id": "item-py-basic-1-4",
+      "chapterId": "ch-py-basic-1",
+      "courseId": "py-basic",
+      "title": "Terminez l'exercice de code : formateur de nom et de titre",
+      "order": 4,
+      "type": "project",
+      "content": "# Code modèle à copier, modifier et compléter :\n# ----------------------------------------------------\n# TODO : Déclarez la variable 'guest_name' et attribuez une valeur de chaîne\n\n# TODO : Déclarez la variable 'engineering_role' et attribuez une valeur de chaîne\n\n# À FAIRE : Créer une f-string de message d'accueil formatée incorporant les deux variables\n# message_de_message = f\"...\"\n\n# imprimer(message_accueil)",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Examinez le squelette de script partiel ci-dessous., Complétez les espaces réservés étiquetés avec les instructions # TODO., Définissez correctement le nom de l'invité, attribuez son rôle d'ingénieur et formatez une déclaration de salutation dynamique à l'aide d'une chaîne f (chaîne littérale formatée)., Soumettez votre script terminé avec un minimum de 15 caractères.",
+      "hints": [
+        "Une chaîne f est écrite sous la forme f'Votre message avec {variable}' en utilisant des accolades pour remplacer dynamiquement les valeurs en direct.",
+        "Complétez la structure du code : guest_name = 'Sofia' / Engineering_role = 'AI Architect' / Greeting_message = f'Bienvenue, Architecte {guest_name} !'"
+      ]
+    },
+    {
+      "id": "item-py-basic-2-1",
+      "chapterId": "ch-py-basic-2",
+      "courseId": "py-basic",
+      "title": "Théorie : flux conditionnel et logique booléenne",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Conditions et booléens multi-branches\n\nLe flux de contrôle détermine quels blocs de code s'exécutent en fonction des expressions d'exécution évaluées comme booléennes True ou False.\n\n### Chaîne If-Elif-Else\nEn Python, les blocs logiques sont définis à l'aide d'**espaces d'indentation** exacts (4 espaces), au lieu d'accolades.\n\n```python\nscore = int(input(\"Entrez la note de l'examen : \"))\n\nsi score >= 90 :\n    print(\"Note : A\")\nscore elif >= 80 :\n    print(\"Note : B\")\nscore elif >= 70 :\n    print(\"Note : C\")\nsinon :\n    print(\"Note : F\")\n```\n\n### Opérateurs logiques\nComposez des conditions composées avec :\n- `et` : vrai si les détails des deux côtés correspondent.\n- `or` : Vrai si au moins un côté correspond.\n- `not` : inverse les états booléens.",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-basic-2-2",
+      "chapterId": "ch-py-basic-2",
+      "courseId": "py-basic",
+      "title": "Théorie : modèles de boucles et listes séquentielles",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Boucles d'itération et listes de collections\n\n### Collections de listes Python\nLes listes sont des collections séquentielles mutables d’éléments entourés de crochets.\n\n```python\nfruits = [\"pomme\", \"banane\", \"cerise\"]\nprint(fruits[0]) # imprime \"pomme\"\nfruits.append(\"orange\")\nprint(len(fruits)) # imprime 4\n```\n\n### Boucles d'itération\n\n#### La boucle 'for' (séquences itératives)\nUtilisez une boucle « for » pour exécuter un bloc sur des éléments d'une liste ou de plages.\n\n```python\n# Imprime les nombres : 0, 1, 2, 3, 4\npour l'index dans la plage (5):\n    imprimer(index)\n\n# Boucle sur les éléments de la liste\npour les fruits dans les fruits :\n    print(f\"J'aime manger des {fruits}!\")\n```\n\n#### La boucle 'while' (Itérations conditionnelles)\nS'exécute tant qu'une expression correspond à True.\n\n```python\ncompte à rebours = 3\npendant que le compte à rebours > 0 :\n    imprimer (compte à rebours)\n    compte à rebours -= 1\nprint(\"Lancez!\")\n```\n\n### Rompre et continuer les boucles\n- `break` : Quitte immédiatement la boucle active.\n- `continue` : ignore le reste de l'itération de la boucle en cours.",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-basic-2-3",
+      "chapterId": "ch-py-basic-2",
+      "courseId": "py-basic",
+      "title": "Quiz interactif : évaluation des plages de boucles",
+      "order": 3,
+      "type": "exercise",
+      "content": null,
+      "question": "Combien de fois le corps de la boucle suivante sera-t-il évalué :\\npour x dans la plage (3, 10, 2) :",
+      "options": [
+        "7 fois",
+        "4 fois",
+        "3 fois",
+        "10 fois"
+      ],
+      "answer": "4 fois",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-basic-2-4",
+      "chapterId": "ch-py-basic-2",
+      "courseId": "py-basic",
+      "title": "Projet pratique : jeu de devinettes avancé",
+      "order": 4,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Générez un nombre entier secret cible aléatoire compris entre 1 et 100.,Construisez une boucle d'entrée vérifiant les prédictions.,Informez le joueur si sa supposition est trop élevée ou trop faible, ou validez le succès.",
+      "hints": [
+        "Importez le module aléatoire standard de Python en utilisant : import random",
+        "Utilisez random.randint(1, 100) pour sélectionner les graines cibles."
+      ]
+    },
+    {
+      "id": "item-py-basic-3-1",
+      "chapterId": "ch-py-basic-3",
+      "courseId": "py-basic",
+      "title": "Théorie : Codage de fonctions et de paramètres personnalisés",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Procédures et fonctions personnalisées\n\nLes fonctions isolent les instructions réutilisables, acceptent les paramètres nommés et renvoient les résultats.\n\n### Définir des fonctions\nUtilisez le mot-clé `def` pour déclarer des fonctions. Donnez les paramètres, les poids des valeurs par défaut et les retours :\n\n```python\ndef calculate_area (largeur, hauteur = 10) :\n    \"\"\"Calcule les dimensions dynamiques.\"\"\"\n    surface = largeur * hauteur\n    zone de retour\n\n# Invocation standard\nresult1 = calculate_area(5, 20) # renvoie 100\n# Repli des paramètres par défaut\nresult2 = calculate_area(5) # renvoie 50\n```\n\n### Espaces de noms locaux et globaux\nLes variables liées à l'intérieur des signatures de fonction n'existent qu'à l'intérieur de ces étendues. Les modifications des variables globales à l'intérieur des fonctions nécessitent une déclaration explicite :\n\n```python\nscore_global = 10\n\ndef update_score() :\n    global_score_global\n    global_score += 5 # Mises à jour originales\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-basic-3-2",
+      "chapterId": "ch-py-basic-3",
+      "courseId": "py-basic",
+      "title": "Théorie : importation d'espaces de noms et séparation des scripts",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Limites des modules et des espaces de noms\n\nPython organise des bases de code massives en **modules** (structures de fichiers correspondantes) qui peuvent être importées de manière sélective.\n\n### Importations de modules standards\nUtilisez des modules robustes intégrés directement dans l’interpréteur principal :\n\n```python\nimporter des mathématiques\nprint(math.sqrt(16)) # Imprime 4.0\n\nà partir d'un randint d'importation aléatoire\nsecret = randint(1, 10) # Importe directement le nom de la fonction\n```\n\n### Création de modules\nUn script python `helpers.py` contenant une fonction `greet()` peut être importé dans `main.py` :\n\n```python\n#main.py\naides à l'importation\nhelpers.greet(\"Instructeur\")\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-basic-3-3",
+      "chapterId": "ch-py-basic-3",
+      "courseId": "py-basic",
+      "title": "Quiz interactif : avertissements relatifs aux paramètres par défaut mutables",
+      "order": 3,
+      "type": "exercise",
+      "content": null,
+      "question": "Quel risque les développeurs de bases de données rencontrent-ils s'ils définissent des listes par défaut comme ceci :\\ndef add_item(elem, containers=[]) :",
+      "options": [
+        "Python lève instantanément une exception de compilation",
+        "La liste par défaut est partagée entre toutes les exécutions, provoquant une accumulation d'enregistrements",
+        "Le conteneur d'entrée ne peut contenir que des formats de chaîne",
+        "Il élague automatiquement les valeurs des variables de la liste à la sortie"
+      ],
+      "answer": "La liste par défaut est partagée entre toutes les exécutions, provoquant une accumulation d'enregistrements",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-basic-3-4",
+      "chapterId": "ch-py-basic-3",
+      "courseId": "py-basic",
+      "title": "Projet pratique : Calculateur de statistiques de notes",
+      "order": 4,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Écrivez une fonction renvoyant les moyennes des notes sur des listes numériques., Ignorez les scores individuels en dessous des seuils de réussite configurables., Imprimez des résumés formatés renvoyant la taille des listes.",
+      "hints": [
+        "La longueur des listes de contrôle empêche la division par des valeurs nulles.",
+        "Utilisez les compréhensions de liste : pass_grades = [g for g in list if g >= min_grade]"
+      ]
+    },
+    {
+      "id": "item-py-basic-4-1",
+      "chapterId": "ch-py-basic-4",
+      "courseId": "py-basic",
+      "title": "Théorie : déclarations de classes et initialiseur d'instances",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Fondements de la POO en Python\n\nLa programmation orientée objet (POO) permet aux développeurs de faire correspondre les attributs et les états du monde réel dans des plans gérables : **Classes**.\n\n### Constructions de classe et initialiseurs\nUtilisez le mot-clé `class`, avec un constructeur d'initialisation `__init__`. `self` fait référence à l'objet instance actif.\n\n```python\nÉlève de la classe :\n    def __init__(soi, nom, majeur) :\n        self.name = nom # Attribut d'instance\n        self.major = majeur\n        self.credits = 0 # Propriété de départ par défaut\n\n    def enroll_credits(self, amt):\n        self.credits += montant\n        print(f\"{self.name} étudie actuellement les crédits {self.credits}.\")\n\n# Instancier des objets\ns1 = Étudiant(\"Lukas\", \"Informatique\")\ns1.enroll_credits(12)\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-basic-4-2",
+      "chapterId": "ch-py-basic-4",
+      "courseId": "py-basic",
+      "title": "Théorie : héritage des attributs parentaux et polymorphisme",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Hiérarchies d'héritage des parents\n\nL'héritage permet aux développeurs modernes d'étendre les définitions de classes existantes en sous-classes spécialisées, minimisant ainsi les violations de code sec.\n\n### Extension des plans de classe\nSpécifiez le plan parent entre parenthèses de paramètres pour l’étendre. Utilisez `super()` pour appeler les modèles d'initialisation parents :\n\n```python\nEmployé de classe :\n    def __init__(soi, nom, salaire) :\n        soi.nom = nom\n        self.salary = salaire\n\nGestionnaire de classe (Employé):\n    def __init__(soi, nom, salaire, département) :\n        super().__init__(nom, salaire) # Déclenche la construction originale\n        self.department = département\n\n    # Remplacement de méthode\n    def display_details (auto):\n        print(f\"Manager {self.name} superviseurs {self.department}\")\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-basic-4-3",
+      "chapterId": "ch-py-basic-4",
+      "courseId": "py-basic",
+      "title": "Quiz interactif : liaisons des constructeurs parents",
+      "order": 3,
+      "type": "exercise",
+      "content": null,
+      "question": "Quelle expression appelle correctement l'initialiseur de classe parent à l'intérieur d'un __init__ enfant surchargé ?",
+      "options": [
+        "parent.__init__()",
+        "super().__init__()",
+        "soi.super()",
+        "init.parents (soi)"
+      ],
+      "answer": "super().__init__()",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-basic-4-4",
+      "chapterId": "ch-py-basic-4",
+      "courseId": "py-basic",
+      "title": "Projet pratique : Gestionnaire d'inventaire de bibliothèque",
+      "order": 4,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Construire le MediaItem parent (titre, année) et le livre descendant (auteur, pages)., Implémenter les méthodes de suivi de vérification en basculant les indicateurs booléens sur les livres., Modéliser une instance de classe d'inventaire du catalogue de bibliothèque contenant un tableau de listes.",
+      "hints": [
+        "Déclenchez les structures parentes en passant le titre et l'année dans les liaisons parentes super().",
+        "Instanciez plusieurs éléments et testez les limites de vérification."
+      ]
+    },
+    {
+      "id": "item-py-ds-1-1",
+      "chapterId": "ch-py-ds-1",
+      "courseId": "py-ds",
+      "title": "Théorie : la boucle d'interprétation et l'affectation de variables",
+      "order": 1,
+      "type": "lesson",
+      "content": "## L'interpréteur Python et les variables dynamiques\n\nPython est un langage interprété, de haut niveau et typé dynamiquement. Contrairement aux langages compilés dans lesquels votre code est traduit en instructions machine binaires avant exécution, un programme utilitaire dynamique appelé **Python Interpreter** lit, analyse et évalue vos instructions ligne par ligne au moment de l'exécution.\n\n### Liaisons et affectation de variables\n\nEn Python, vous ne déclarez pas le type d'une variable avant de lui attribuer une valeur (pas de mots-clés comme `var`, `let` ou de descripteurs de type explicites comme `int` ou `String`). Créer une variable est aussi simple que de lier un nom à une référence d'objet à l'aide du signe égal (`=`) :\n\n```python\n# Liaisons de variables simples\nutilisateur_age = 22\nnom_utilisateur = \"Alex Mercer\"\nis_enrolled = Vrai\nnote_point_average = 3,92\n\nimprimer (nom_utilisateur)\nimprimer (utilisateur_age)\n```\n\n### Saisie dynamique et liaison de nom\n\nLorsque vous écrivez « x = 100 », Python alloue de la mémoire pour l'objet entier « 100 » et lui associe le nom « x ». Vous pouvez ensuite relier le même nom à une référence d'un type de données complètement différent :\n\n```python\nx = 100 # x est lié à un entier (int)\nx = \"Passé\" # Maintenant, x est lié à une chaîne (str)\n```\n\nCette nature dynamique rend Python très flexible mais nécessite de la discipline. Les meilleures pratiques suggèrent de conserver les noms de variables liés à un type cohérent tout au long de leur cycle de vie pour maintenir la clarté du code.\n\n### Conventions de dénomination des variables\n\nLes variables Python sont sensibles à la casse (`Age` et `age` sont distincts) et suivent la convention **snake_case**, où toutes les lettres sont en minuscules et les mots sont joints par des traits de soulignement (par exemple, `student_first_name`).",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-1-2",
+      "chapterId": "ch-py-ds-1",
+      "courseId": "py-ds",
+      "title": "Quiz interactif : Mécanique de liaison variable",
+      "order": 2,
+      "type": "exercise",
+      "content": null,
+      "question": "Considérez cette séquence d'instructions :\n\nx = 42\ny = x\nx = 'Incroyable'\n\nQuelle est la valeur de la variable y en fin d’exécution ?",
+      "options": [
+        "valeur entière 42",
+        "valeur de chaîne 'Incroyable'",
+        "valeur entière 0",
+        "Aucun (déclenche une erreur de type d'exécution)"
+      ],
+      "answer": "valeur entière 42",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-1-3",
+      "chapterId": "ch-py-ds-1",
+      "courseId": "py-ds",
+      "title": "Projet pratique : création d'un générateur de profil utilisateur",
+      "order": 3,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Déclarez quatre variables distinctes : user_name (chaîne), Rank_score (entier), success_rate (float) et is_admin (booléen).,Initialisez-les avec les valeurs descriptives de votre choix.,Imprimez chaque variable avec un message de sortie propre et étiqueté à l'aide de la fonction print().,Réaffectez success_rate à une nouvelle valeur flottante et imprimez le taux mis à jour.",
+      "hints": [
+        "Les valeurs booléennes en Python doivent commencer par une lettre majuscule : True ou False (pas vrai ou faux).",
+        "Utilisez des étiquettes descriptives telles que print('User Name:', user_name) pour organiser vos sorties."
+      ]
+    },
+    {
+      "id": "item-py-ds-1-4",
+      "chapterId": "ch-py-ds-1",
+      "courseId": "py-ds",
+      "title": "Terminez l'exercice de code : formateur de nom et de titre",
+      "order": 4,
+      "type": "project",
+      "content": "# Code modèle à copier, modifier et compléter :\n# ----------------------------------------------------\n# TODO : Déclarez la variable 'guest_name' et attribuez une valeur de chaîne\n\n# TODO : Déclarez la variable 'engineering_role' et attribuez une valeur de chaîne\n\n# À FAIRE : Créer une f-string de message d'accueil formatée incorporant les deux variables\n# message_de_message = f\"...\"\n\n# imprimer(message_accueil)",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Examinez le squelette de script partiel ci-dessous., Complétez les espaces réservés étiquetés avec les instructions # TODO., Définissez correctement le nom de l'invité, attribuez son rôle d'ingénieur et formatez une déclaration de salutation dynamique à l'aide d'une chaîne f (chaîne littérale formatée)., Soumettez votre script terminé avec un minimum de 15 caractères.",
+      "hints": [
+        "Une chaîne f est écrite sous la forme f'Votre message avec {variable}' en utilisant des accolades pour remplacer dynamiquement les valeurs en direct.",
+        "Complétez la structure du code : guest_name = 'Sofia' / Engineering_role = 'AI Architect' / Greeting_message = f'Bienvenue, Architecte {guest_name} !'"
+      ]
+    },
+    {
+      "id": "item-py-ds-2-1",
+      "chapterId": "ch-py-ds-2",
+      "courseId": "py-ds",
+      "title": "Théorie : flux conditionnel et logique booléenne",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Conditions et booléens multi-branches\n\nLe flux de contrôle détermine quels blocs de code s'exécutent en fonction des expressions d'exécution évaluées comme booléennes True ou False.\n\n### Chaîne If-Elif-Else\nEn Python, les blocs logiques sont définis à l'aide d'**espaces d'indentation** exacts (4 espaces), au lieu d'accolades.\n\n```python\nscore = int(input(\"Entrez la note de l'examen : \"))\n\nsi score >= 90 :\n    print(\"Note : A\")\nscore elif >= 80 :\n    print(\"Note : B\")\nscore elif >= 70 :\n    print(\"Note : C\")\nsinon :\n    print(\"Note : F\")\n```\n\n### Opérateurs logiques\nComposez des conditions composées avec :\n- `et` : vrai si les détails des deux côtés correspondent.\n- `or` : Vrai si au moins un côté correspond.\n- `not` : inverse les états booléens.",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-2-2",
+      "chapterId": "ch-py-ds-2",
+      "courseId": "py-ds",
+      "title": "Théorie : modèles de boucles et listes séquentielles",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Boucles d'itération et listes de collections\n\n### Collections de listes Python\nLes listes sont des collections séquentielles mutables d’éléments entourés de crochets.\n\n```python\nfruits = [\"pomme\", \"banane\", \"cerise\"]\nprint(fruits[0]) # imprime \"pomme\"\nfruits.append(\"orange\")\nprint(len(fruits)) # imprime 4\n```\n\n### Boucles d'itération\n\n#### La boucle 'for' (séquences itératives)\nUtilisez une boucle « for » pour exécuter un bloc sur des éléments d'une liste ou de plages.\n\n```python\n# Imprime les nombres : 0, 1, 2, 3, 4\npour l'index dans la plage (5):\n    imprimer(index)\n\n# Boucle sur les éléments de la liste\npour les fruits dans les fruits :\n    print(f\"J'aime manger des {fruits}!\")\n```\n\n#### La boucle 'while' (Itérations conditionnelles)\nS'exécute tant qu'une expression correspond à True.\n\n```python\ncompte à rebours = 3\npendant que le compte à rebours > 0 :\n    imprimer (compte à rebours)\n    compte à rebours -= 1\nprint(\"Lancez!\")\n```\n\n### Rompre et continuer les boucles\n- `break` : Quitte immédiatement la boucle active.\n- `continue` : ignore le reste de l'itération de la boucle en cours.",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-2-3",
+      "chapterId": "ch-py-ds-2",
+      "courseId": "py-ds",
+      "title": "Quiz interactif : évaluation des plages de boucles",
+      "order": 3,
+      "type": "exercise",
+      "content": null,
+      "question": "Combien de fois le corps de la boucle suivante sera-t-il évalué :\\npour x dans la plage (3, 10, 2) :",
+      "options": [
+        "7 fois",
+        "4 fois",
+        "3 fois",
+        "10 fois"
+      ],
+      "answer": "4 fois",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-2-4",
+      "chapterId": "ch-py-ds-2",
+      "courseId": "py-ds",
+      "title": "Projet pratique : jeu de devinettes avancé",
+      "order": 4,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Générez un nombre entier secret cible aléatoire compris entre 1 et 100.,Construisez une boucle d'entrée vérifiant les prédictions.,Informez le joueur si sa supposition est trop élevée ou trop faible, ou validez le succès.",
+      "hints": [
+        "Importez le module aléatoire standard de Python en utilisant : import random",
+        "Utilisez random.randint(1, 100) pour sélectionner les graines cibles."
+      ]
+    },
+    {
+      "id": "item-py-ds-3-1",
+      "chapterId": "ch-py-ds-3",
+      "courseId": "py-ds",
+      "title": "Théorie : Codage de fonctions et de paramètres personnalisés",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Procédures et fonctions personnalisées\n\nLes fonctions isolent les instructions réutilisables, acceptent les paramètres nommés et renvoient les résultats.\n\n### Définir des fonctions\nUtilisez le mot-clé `def` pour déclarer des fonctions. Donnez les paramètres, les poids des valeurs par défaut et les retours :\n\n```python\ndef calculate_area (largeur, hauteur = 10) :\n    \"\"\"Calcule les dimensions dynamiques.\"\"\"\n    surface = largeur * hauteur\n    zone de retour\n\n# Invocation standard\nresult1 = calculate_area(5, 20) # renvoie 100\n# Repli des paramètres par défaut\nresult2 = calculate_area(5) # renvoie 50\n```\n\n### Espaces de noms locaux et globaux\nLes variables liées à l'intérieur des signatures de fonction n'existent qu'à l'intérieur de ces étendues. Les modifications des variables globales à l'intérieur des fonctions nécessitent une déclaration explicite :\n\n```python\nscore_global = 10\n\ndef update_score() :\n    global_score_global\n    global_score += 5 # Mises à jour originales\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-3-2",
+      "chapterId": "ch-py-ds-3",
+      "courseId": "py-ds",
+      "title": "Théorie : importation d'espaces de noms et séparation des scripts",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Limites des modules et des espaces de noms\n\nPython organise des bases de code massives en **modules** (structures de fichiers correspondantes) qui peuvent être importées de manière sélective.\n\n### Importations de modules standards\nUtilisez des modules robustes intégrés directement dans l’interpréteur principal :\n\n```python\nimporter des mathématiques\nprint(math.sqrt(16)) # Imprime 4.0\n\nà partir d'un randint d'importation aléatoire\nsecret = randint(1, 10) # Importe directement le nom de la fonction\n```\n\n### Création de modules\nUn script python `helpers.py` contenant une fonction `greet()` peut être importé dans `main.py` :\n\n```python\n#main.py\naides à l'importation\nhelpers.greet(\"Instructeur\")\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-3-3",
+      "chapterId": "ch-py-ds-3",
+      "courseId": "py-ds",
+      "title": "Quiz interactif : avertissements relatifs aux paramètres par défaut mutables",
+      "order": 3,
+      "type": "exercise",
+      "content": null,
+      "question": "Quel risque les développeurs de bases de données rencontrent-ils s'ils définissent des listes par défaut comme ceci :\\ndef add_item(elem, containers=[]) :",
+      "options": [
+        "Python lève instantanément une exception de compilation",
+        "La liste par défaut est partagée entre toutes les exécutions, provoquant une accumulation d'enregistrements",
+        "Le conteneur d'entrée ne peut contenir que des formats de chaîne",
+        "Il élague automatiquement les valeurs des variables de la liste à la sortie"
+      ],
+      "answer": "La liste par défaut est partagée entre toutes les exécutions, provoquant une accumulation d'enregistrements",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-3-4",
+      "chapterId": "ch-py-ds-3",
+      "courseId": "py-ds",
+      "title": "Projet pratique : Calculateur de statistiques de notes",
+      "order": 4,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Écrivez une fonction renvoyant les moyennes des notes sur des listes numériques., Ignorez les scores individuels en dessous des seuils de réussite configurables., Imprimez des résumés formatés renvoyant la taille des listes.",
+      "hints": [
+        "La longueur des listes de contrôle empêche la division par des valeurs nulles.",
+        "Utilisez les compréhensions de liste : pass_grades = [g for g in list if g >= min_grade]"
+      ]
+    },
+    {
+      "id": "item-py-ds-4-1",
+      "chapterId": "ch-py-ds-4",
+      "courseId": "py-ds",
+      "title": "Théorie : déclarations de classes et initialiseur d'instances",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Fondements de la POO en Python\n\nLa programmation orientée objet (POO) permet aux développeurs de faire correspondre les attributs et les états du monde réel dans des plans gérables : **Classes**.\n\n### Constructions de classe et initialiseurs\nUtilisez le mot-clé `class`, avec un constructeur d'initialisation `__init__`. `self` fait référence à l'objet instance actif.\n\n```python\nÉlève de la classe :\n    def __init__(soi, nom, majeur) :\n        self.name = nom # Attribut d'instance\n        self.major = majeur\n        self.credits = 0 # Propriété de départ par défaut\n\n    def enroll_credits(self, amt):\n        self.credits += montant\n        print(f\"{self.name} étudie actuellement les crédits {self.credits}.\")\n\n# Instancier des objets\ns1 = Étudiant(\"Lukas\", \"Informatique\")\ns1.enroll_credits(12)\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-4-2",
+      "chapterId": "ch-py-ds-4",
+      "courseId": "py-ds",
+      "title": "Théorie : héritage des attributs parentaux et polymorphisme",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Hiérarchies d'héritage des parents\n\nL'héritage permet aux développeurs modernes d'étendre les définitions de classes existantes en sous-classes spécialisées, minimisant ainsi les violations de code sec.\n\n### Extension des plans de classe\nSpécifiez le plan parent entre parenthèses de paramètres pour l’étendre. Utilisez `super()` pour appeler les modèles d'initialisation parents :\n\n```python\nEmployé de classe :\n    def __init__(soi, nom, salaire) :\n        soi.nom = nom\n        self.salary = salaire\n\nGestionnaire de classe (Employé):\n    def __init__(soi, nom, salaire, département) :\n        super().__init__(nom, salaire) # Déclenche la construction originale\n        self.department = département\n\n    # Remplacement de méthode\n    def display_details (auto):\n        print(f\"Manager {self.name} superviseurs {self.department}\")\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-4-3",
+      "chapterId": "ch-py-ds-4",
+      "courseId": "py-ds",
+      "title": "Quiz interactif : liaisons des constructeurs parents",
+      "order": 3,
+      "type": "exercise",
+      "content": null,
+      "question": "Quelle expression appelle correctement l'initialiseur de classe parent à l'intérieur d'un __init__ enfant surchargé ?",
+      "options": [
+        "parent.__init__()",
+        "super().__init__()",
+        "soi.super()",
+        "init.parents (soi)"
+      ],
+      "answer": "super().__init__()",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-4-4",
+      "chapterId": "ch-py-ds-4",
+      "courseId": "py-ds",
+      "title": "Projet pratique : Gestionnaire d'inventaire de bibliothèque",
+      "order": 4,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Construire le MediaItem parent (titre, année) et le livre descendant (auteur, pages)., Implémenter les méthodes de suivi de vérification en basculant les indicateurs booléens sur les livres., Modéliser une instance de classe d'inventaire du catalogue de bibliothèque contenant un tableau de listes.",
+      "hints": [
+        "Déclenchez les structures parentes en passant le titre et l'année dans les liaisons parentes super().",
+        "Instanciez plusieurs éléments et testez les limites de vérification."
+      ]
+    },
+    {
+      "id": "item-py-ds-5-1",
+      "chapterId": "ch-py-ds-5",
+      "courseId": "py-ds",
+      "title": "Théorie : opérations de tableau rapides avec NumPy",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Matrice rapide et mathématiques numériques avec NumPy\n\nPour la science des données, la liste native de Python peut être lente. **NumPy** fournit des **ndarrays** (tableaux à n dimensions) compilés en C, effectuant des mathématiques vectorisées.\n\n### Création de ndarrays\n```python\nimporter numpy en tant que np\n\n# Convertir la liste en tableau rapide\nnotes = np.array([88, 92, 79, 95])\n# Calculs vectorisés (appliqués automatiquement à tous les éléments !)\nscaled_grades = notes * 1,05 \nprint(scaled_grades) # [92,4 96,6 82,95 99,75]\n\n# Agrégation vectorisée\nprint(np.mean(grades)) # 88.5\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-5-2",
+      "chapterId": "ch-py-ds-5",
+      "courseId": "py-ds",
+      "title": "Théorie : nettoyer les matrices d'ensembles de données avec Pandas",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Agrégation de DataFrames à l'aide de Pandas\n\n**Pandas** est la norme industrielle pour le traitement des informations tabulaires structurelles, similaires aux feuilles Excel contrôlées par programme.\n\n### Manipulation des DataFrames\nCréez des DataFrames, interrogez des enregistrements, filtrez et calculez des données démographiques globales :\n\n```python\nimporter des pandas en tant que PD\n\ndonnées = {\n    \"Nom\": [\"Alice\", \"Bob\", \"Charlie\"],\n    \"Département\": [\"RH\", \"IT\", \"IT\"],\n    \"Salaire\": [55 000, 72 000, 81 000]\n}\n\ndf = pd.DataFrame (données)\n\n# Interrogation des lignes\nit_staff = df[df[\"Département\"] == \"IT\"]\nimprimer(it_staff)\n\n# Calculs moyens\navg_sal = df[\"Salaire\"].mean()\nprint(f\"Masse salariale moyenne de l'entreprise : {avg_sal}\")\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-5-3",
+      "chapterId": "ch-py-ds-5",
+      "courseId": "py-ds",
+      "title": "Quiz interactif : cartographies de l'axe des opérations",
+      "order": 3,
+      "type": "exercise",
+      "content": null,
+      "question": "Dans Pandas, quel paramètre d'axe doit être spécifié pour exécuter les opérations par colonne ?",
+      "options": [
+        "axe=0",
+        "axe=1",
+        "axe='lignes'",
+        "axe = 'tout'"
+      ],
+      "answer": "axe=1",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-5-4",
+      "chapterId": "ch-py-ds-5",
+      "courseId": "py-ds",
+      "title": "Projet pratique : analyseur de feuilles blanches de statistiques démographiques",
+      "order": 4,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Filtrez les lignes du tableau des clients d'entrée sur des seuils d'âge donnés., Calculez les statistiques de salaire du groupe sur les colonnes du département., Sortez des résumés de structures propres.",
+      "hints": [
+        "Utilisez le découpage booléen entre parenthèses : df[df['Age'] > 30].",
+        "Combinez les sélecteurs de groupe : df.groupby('Department')['Salary'].mean()"
+      ]
+    },
+    {
+      "id": "item-py-ds-6-1",
+      "chapterId": "ch-py-ds-6",
+      "courseId": "py-ds",
+      "title": "Théorie : Création de graphiques linéaires et de tracés de titres",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Narration de données avec Matplotlib\n\nUn graphique vaut mille lignes de données. **Matplotlib** vous permet de créer des visualisations de qualité publication.\n\n### Dessiner des courbes de base\nUtilisez `pyplot` pour concevoir des tracés standard et attribuer des étiquettes et des grilles :\n\n```python\nimporter matplotlib.pyplot en tant que plt\n\njours = [1, 2, 3, 4, 5]\ntempératures = [18, 21, 19, 24, 23]\n\n# Tracer des lignes en traçant les coordonnées\nplt.plot(jours, températures, marqueur='o', couleur='sarcelle', linestyle='--')\n\nplt.title(\"Variations de température hebdomadaires\")\nplt.xlabel(\"Séquence du jour\")\nplt.ylabel(\"Degrés Celsius\")\nplt.grid(Vrai)\n\nplt.show() # Fenêtre de rendu\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-6-2",
+      "chapterId": "ch-py-ds-6",
+      "courseId": "py-ds",
+      "title": "Théorie : Multiplots, légendes et barres de mise en page",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Barres catégorielles et histogrammes\n\nComparez des facteurs structurels distincts en superposant des barres distinctes :\n\n```python\nimporter matplotlib.pyplot en tant que plt\n\nmarques = [\"Apple\", \"Samsung\", \"Xiaomi\", \"Google\"]\npart de marché = [32, 28, 18, 11]\n\n# Dessiner une barre catégorielle\nplt.bar(marques, market_share, color=['bleu', 'gris', 'orange', 'rouge'])\n\nplt.title(\"Partages mondiaux de matériel\")\nplt.ylabel(\"Pourcentage %\")\n\nplt.show()\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-6-3",
+      "chapterId": "ch-py-ds-6",
+      "courseId": "py-ds",
+      "title": "Quiz interactif : personnalisations de l'axe Y",
+      "order": 3,
+      "type": "exercise",
+      "content": null,
+      "question": "Quelle méthode Matplotlib est appelée pour superposer les sous-titres sur l’axe y vertical ?",
+      "options": [
+        "plt.ylabel()",
+        "plt.yaxis_title()",
+        "plt.axis_left()",
+        "plt.y_annotation()"
+      ],
+      "answer": "plt.ylabel()",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-6-4",
+      "chapterId": "ch-py-ds-6",
+      "courseId": "py-ds",
+      "title": "Projet pratique : tracés d'analyse du cycle météorologique",
+      "order": 4,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Préparez des tableaux contenant les températures mensuelles., Assemblez des barres de précipitations et des lignes de température regroupées., Configurez des légendes et enregistrez les objets de tracé d'image.",
+      "hints": [
+        "Déclenchez le dessin séquentiel plot() et bar() avant l'affichage.",
+        "Appelez plt.savefig('output.png') pour valider les fichiers."
+      ]
+    },
+    {
+      "id": "item-py-game-1-1",
+      "chapterId": "ch-py-game-1",
+      "courseId": "py-game",
+      "title": "Théorie : la boucle d'interprétation et l'affectation de variables",
+      "order": 1,
+      "type": "lesson",
+      "content": "## L'interpréteur Python et les variables dynamiques\n\nPython est un langage interprété, de haut niveau et typé dynamiquement. Contrairement aux langages compilés dans lesquels votre code est traduit en instructions machine binaires avant exécution, un programme utilitaire dynamique appelé **Python Interpreter** lit, analyse et évalue vos instructions ligne par ligne au moment de l'exécution.\n\n### Liaisons et affectation de variables\n\nEn Python, vous ne déclarez pas le type d'une variable avant de lui attribuer une valeur (pas de mots-clés comme `var`, `let` ou de descripteurs de type explicites comme `int` ou `String`). Créer une variable est aussi simple que de lier un nom à une référence d'objet à l'aide du signe égal (`=`) :\n\n```python\n# Liaisons de variables simples\nutilisateur_age = 22\nnom_utilisateur = \"Alex Mercer\"\nis_enrolled = Vrai\nnote_point_average = 3,92\n\nimprimer (nom_utilisateur)\nimprimer (utilisateur_age)\n```\n\n### Saisie dynamique et liaison de nom\n\nLorsque vous écrivez « x = 100 », Python alloue de la mémoire pour l'objet entier « 100 » et lui associe le nom « x ». Vous pouvez ensuite relier le même nom à une référence d'un type de données complètement différent :\n\n```python\nx = 100 # x est lié à un entier (int)\nx = \"Passé\" # Maintenant, x est lié à une chaîne (str)\n```\n\nCette nature dynamique rend Python très flexible mais nécessite de la discipline. Les meilleures pratiques suggèrent de conserver les noms de variables liés à un type cohérent tout au long de leur cycle de vie pour maintenir la clarté du code.\n\n### Conventions de dénomination des variables\n\nLes variables Python sont sensibles à la casse (`Age` et `age` sont distincts) et suivent la convention **snake_case**, où toutes les lettres sont en minuscules et les mots sont joints par des traits de soulignement (par exemple, `student_first_name`).",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-1-2",
+      "chapterId": "ch-py-game-1",
+      "courseId": "py-game",
+      "title": "Quiz interactif : Mécanique de liaison variable",
+      "order": 2,
+      "type": "exercise",
+      "content": null,
+      "question": "Considérez cette séquence d'instructions :\n\nx = 42\ny = x\nx = 'Incroyable'\n\nQuelle est la valeur de la variable y en fin d’exécution ?",
+      "options": [
+        "valeur entière 42",
+        "valeur de chaîne 'Incroyable'",
+        "valeur entière 0",
+        "Aucun (déclenche une erreur de type d'exécution)"
+      ],
+      "answer": "valeur entière 42",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-1-3",
+      "chapterId": "ch-py-game-1",
+      "courseId": "py-game",
+      "title": "Projet pratique : création d'un générateur de profil utilisateur",
+      "order": 3,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Déclarez quatre variables distinctes : user_name (chaîne), Rank_score (entier), success_rate (float) et is_admin (booléen).,Initialisez-les avec les valeurs descriptives de votre choix.,Imprimez chaque variable avec un message de sortie propre et étiqueté à l'aide de la fonction print().,Réaffectez success_rate à une nouvelle valeur flottante et imprimez le taux mis à jour.",
+      "hints": [
+        "Les valeurs booléennes en Python doivent commencer par une lettre majuscule : True ou False (pas vrai ou faux).",
+        "Utilisez des étiquettes descriptives telles que print('User Name:', user_name) pour organiser vos sorties."
+      ]
+    },
+    {
+      "id": "item-py-game-1-4",
+      "chapterId": "ch-py-game-1",
+      "courseId": "py-game",
+      "title": "Terminez l'exercice de code : formateur de nom et de titre",
+      "order": 4,
+      "type": "project",
+      "content": "# Code modèle à copier, modifier et compléter :\n# ----------------------------------------------------\n# TODO : Déclarez la variable 'guest_name' et attribuez une valeur de chaîne\n\n# TODO : Déclarez la variable 'engineering_role' et attribuez une valeur de chaîne\n\n# À FAIRE : Créer une f-string de message d'accueil formatée incorporant les deux variables\n# message_de_message = f\"...\"\n\n# imprimer(message_accueil)",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Examinez le squelette de script partiel ci-dessous., Complétez les espaces réservés étiquetés avec les instructions # TODO., Définissez correctement le nom de l'invité, attribuez son rôle d'ingénieur et formatez une déclaration de salutation dynamique à l'aide d'une chaîne f (chaîne littérale formatée)., Soumettez votre script terminé avec un minimum de 15 caractères.",
+      "hints": [
+        "Une chaîne f est écrite sous la forme f'Votre message avec {variable}' en utilisant des accolades pour remplacer dynamiquement les valeurs en direct.",
+        "Complétez la structure du code : guest_name = 'Sofia' / Engineering_role = 'AI Architect' / Greeting_message = f'Bienvenue, Architecte {guest_name} !'"
+      ]
+    },
+    {
+      "id": "item-py-game-2-1",
+      "chapterId": "ch-py-game-2",
+      "courseId": "py-game",
+      "title": "Théorie : flux conditionnel et logique booléenne",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Conditions et booléens multi-branches\n\nLe flux de contrôle détermine quels blocs de code s'exécutent en fonction des expressions d'exécution évaluées comme booléennes True ou False.\n\n### Chaîne If-Elif-Else\nEn Python, les blocs logiques sont définis à l'aide d'**espaces d'indentation** exacts (4 espaces), au lieu d'accolades.\n\n```python\nscore = int(input(\"Entrez la note de l'examen : \"))\n\nsi score >= 90 :\n    print(\"Note : A\")\nscore elif >= 80 :\n    print(\"Note : B\")\nscore elif >= 70 :\n    print(\"Note : C\")\nsinon :\n    print(\"Note : F\")\n```\n\n### Opérateurs logiques\nComposez des conditions composées avec :\n- `et` : vrai si les détails des deux côtés correspondent.\n- `or` : Vrai si au moins un côté correspond.\n- `not` : inverse les états booléens.",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-2-2",
+      "chapterId": "ch-py-game-2",
+      "courseId": "py-game",
+      "title": "Théorie : modèles de boucles et listes séquentielles",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Boucles d'itération et listes de collections\n\n### Collections de listes Python\nLes listes sont des collections séquentielles mutables d’éléments entourés de crochets.\n\n```python\nfruits = [\"pomme\", \"banane\", \"cerise\"]\nprint(fruits[0]) # imprime \"pomme\"\nfruits.append(\"orange\")\nprint(len(fruits)) # imprime 4\n```\n\n### Boucles d'itération\n\n#### La boucle 'for' (séquences itératives)\nUtilisez une boucle « for » pour exécuter un bloc sur des éléments d'une liste ou de plages.\n\n```python\n# Imprime les nombres : 0, 1, 2, 3, 4\npour l'index dans la plage (5):\n    imprimer(index)\n\n# Boucle sur les éléments de la liste\npour les fruits dans les fruits :\n    print(f\"J'aime manger des {fruits}!\")\n```\n\n#### La boucle 'while' (Itérations conditionnelles)\nS'exécute tant qu'une expression correspond à True.\n\n```python\ncompte à rebours = 3\npendant que le compte à rebours > 0 :\n    imprimer (compte à rebours)\n    compte à rebours -= 1\nprint(\"Lancez!\")\n```\n\n### Rompre et continuer les boucles\n- `break` : Quitte immédiatement la boucle active.\n- `continue` : ignore le reste de l'itération de la boucle en cours.",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-2-3",
+      "chapterId": "ch-py-game-2",
+      "courseId": "py-game",
+      "title": "Quiz interactif : évaluation des plages de boucles",
+      "order": 3,
+      "type": "exercise",
+      "content": null,
+      "question": "Combien de fois le corps de la boucle suivante sera-t-il évalué :\\npour x dans la plage (3, 10, 2) :",
+      "options": [
+        "7 fois",
+        "4 fois",
+        "3 fois",
+        "10 fois"
+      ],
+      "answer": "4 fois",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-2-4",
+      "chapterId": "ch-py-game-2",
+      "courseId": "py-game",
+      "title": "Projet pratique : jeu de devinettes avancé",
+      "order": 4,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Générez un nombre entier secret cible aléatoire compris entre 1 et 100.,Construisez une boucle d'entrée vérifiant les prédictions.,Informez le joueur si sa supposition est trop élevée ou trop faible, ou validez le succès.",
+      "hints": [
+        "Importez le module aléatoire standard de Python en utilisant : import random",
+        "Utilisez random.randint(1, 100) pour sélectionner les graines cibles."
+      ]
+    },
+    {
+      "id": "item-py-game-3-1",
+      "chapterId": "ch-py-game-3",
+      "courseId": "py-game",
+      "title": "Théorie : Codage de fonctions et de paramètres personnalisés",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Procédures et fonctions personnalisées\n\nLes fonctions isolent les instructions réutilisables, acceptent les paramètres nommés et renvoient les résultats.\n\n### Définir des fonctions\nUtilisez le mot-clé `def` pour déclarer des fonctions. Donnez les paramètres, les poids des valeurs par défaut et les retours :\n\n```python\ndef calculate_area (largeur, hauteur = 10) :\n    \"\"\"Calcule les dimensions dynamiques.\"\"\"\n    surface = largeur * hauteur\n    zone de retour\n\n# Invocation standard\nresult1 = calculate_area(5, 20) # renvoie 100\n# Repli des paramètres par défaut\nresult2 = calculate_area(5) # renvoie 50\n```\n\n### Espaces de noms locaux et globaux\nLes variables liées à l'intérieur des signatures de fonction n'existent qu'à l'intérieur de ces étendues. Les modifications des variables globales à l'intérieur des fonctions nécessitent une déclaration explicite :\n\n```python\nscore_global = 10\n\ndef update_score() :\n    global_score_global\n    global_score += 5 # Mises à jour originales\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-3-2",
+      "chapterId": "ch-py-game-3",
+      "courseId": "py-game",
+      "title": "Théorie : importation d'espaces de noms et séparation des scripts",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Limites des modules et des espaces de noms\n\nPython organise des bases de code massives en **modules** (structures de fichiers correspondantes) qui peuvent être importées de manière sélective.\n\n### Importations de modules standards\nUtilisez des modules robustes intégrés directement dans l’interpréteur principal :\n\n```python\nimporter des mathématiques\nprint(math.sqrt(16)) # Imprime 4.0\n\nà partir d'un randint d'importation aléatoire\nsecret = randint(1, 10) # Importe directement le nom de la fonction\n```\n\n### Création de modules\nUn script python `helpers.py` contenant une fonction `greet()` peut être importé dans `main.py` :\n\n```python\n#main.py\naides à l'importation\nhelpers.greet(\"Instructeur\")\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-3-3",
+      "chapterId": "ch-py-game-3",
+      "courseId": "py-game",
+      "title": "Quiz interactif : avertissements relatifs aux paramètres par défaut mutables",
+      "order": 3,
+      "type": "exercise",
+      "content": null,
+      "question": "Quel risque les développeurs de bases de données rencontrent-ils s'ils définissent des listes par défaut comme ceci :\\ndef add_item(elem, containers=[]) :",
+      "options": [
+        "Python lève instantanément une exception de compilation",
+        "La liste par défaut est partagée entre toutes les exécutions, provoquant une accumulation d'enregistrements",
+        "Le conteneur d'entrée ne peut contenir que des formats de chaîne",
+        "Il élague automatiquement les valeurs des variables de la liste à la sortie"
+      ],
+      "answer": "La liste par défaut est partagée entre toutes les exécutions, provoquant une accumulation d'enregistrements",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-3-4",
+      "chapterId": "ch-py-game-3",
+      "courseId": "py-game",
+      "title": "Projet pratique : Calculateur de statistiques de notes",
+      "order": 4,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Écrivez une fonction renvoyant les moyennes des notes sur des listes numériques., Ignorez les scores individuels en dessous des seuils de réussite configurables., Imprimez des résumés formatés renvoyant la taille des listes.",
+      "hints": [
+        "La longueur des listes de contrôle empêche la division par des valeurs nulles.",
+        "Utilisez les compréhensions de liste : pass_grades = [g for g in list if g >= min_grade]"
+      ]
+    },
+    {
+      "id": "item-py-game-4-1",
+      "chapterId": "ch-py-game-4",
+      "courseId": "py-game",
+      "title": "Théorie : déclarations de classes et initialiseur d'instances",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Fondements de la POO en Python\n\nLa programmation orientée objet (POO) permet aux développeurs de faire correspondre les attributs et les états du monde réel dans des plans gérables : **Classes**.\n\n### Constructions de classe et initialiseurs\nUtilisez le mot-clé `class`, avec un constructeur d'initialisation `__init__`. `self` fait référence à l'objet instance actif.\n\n```python\nÉlève de la classe :\n    def __init__(soi, nom, majeur) :\n        self.name = nom # Attribut d'instance\n        self.major = majeur\n        self.credits = 0 # Propriété de départ par défaut\n\n    def enroll_credits(self, amt):\n        self.credits += montant\n        print(f\"{self.name} étudie actuellement les crédits {self.credits}.\")\n\n# Instancier des objets\ns1 = Étudiant(\"Lukas\", \"Informatique\")\ns1.enroll_credits(12)\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-4-2",
+      "chapterId": "ch-py-game-4",
+      "courseId": "py-game",
+      "title": "Théorie : héritage des attributs parentaux et polymorphisme",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Hiérarchies d'héritage des parents\n\nL'héritage permet aux développeurs modernes d'étendre les définitions de classes existantes en sous-classes spécialisées, minimisant ainsi les violations de code sec.\n\n### Extension des plans de classe\nSpécifiez le plan parent entre parenthèses de paramètres pour l’étendre. Utilisez `super()` pour appeler les modèles d'initialisation parents :\n\n```python\nEmployé de classe :\n    def __init__(soi, nom, salaire) :\n        soi.nom = nom\n        self.salary = salaire\n\nGestionnaire de classe (Employé):\n    def __init__(soi, nom, salaire, département) :\n        super().__init__(nom, salaire) # Déclenche la construction originale\n        self.department = département\n\n    # Remplacement de méthode\n    def display_details (auto):\n        print(f\"Manager {self.name} superviseurs {self.department}\")\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-4-3",
+      "chapterId": "ch-py-game-4",
+      "courseId": "py-game",
+      "title": "Quiz interactif : liaisons des constructeurs parents",
+      "order": 3,
+      "type": "exercise",
+      "content": null,
+      "question": "Quelle expression appelle correctement l'initialiseur de classe parent à l'intérieur d'un __init__ enfant surchargé ?",
+      "options": [
+        "parent.__init__()",
+        "super().__init__()",
+        "soi.super()",
+        "init.parents (soi)"
+      ],
+      "answer": "super().__init__()",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-4-4",
+      "chapterId": "ch-py-game-4",
+      "courseId": "py-game",
+      "title": "Projet pratique : Gestionnaire d'inventaire de bibliothèque",
+      "order": 4,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Construire le MediaItem parent (titre, année) et le livre descendant (auteur, pages)., Implémenter les méthodes de suivi de vérification en basculant les indicateurs booléens sur les livres., Modéliser une instance de classe d'inventaire du catalogue de bibliothèque contenant un tableau de listes.",
+      "hints": [
+        "Déclenchez les structures parentes en passant le titre et l'année dans les liaisons parentes super().",
+        "Instanciez plusieurs éléments et testez les limites de vérification."
+      ]
+    },
+    {
+      "id": "item-py-game-5-1",
+      "chapterId": "ch-py-game-5",
+      "courseId": "py-game",
+      "title": "Théorie : Structuration des boucles de jeu fait tic-tac",
+      "order": 1,
+      "type": "lesson",
+      "content": "## L'architecture des boucles de jeu\n\nContrairement aux routeurs Web statiques, les jeux vidéo sont des simulations en temps réel exécutées à haute fréquence (généralement 60 images par seconde). Ils s'appuient sur une boucle infinie exécutant 3 opérations essentielles à chaque itération :\n\n1. **Processus d'entrées** : écoutez les frappes du clavier de l'utilisateur, les mouvements de la souris ou les clics de la manette de jeu.\n2. **États de mise à jour** : recalculez les positions des joueurs, les vitesses physiques, les collisions et les nombres entiers du tableau de bord.\n3. **Draw Frames** : restituez les ressources, les images d'arrière-plan et l'interface utilisateur dans les tampons de sortie.\n\n```python\ngame_active = Vrai\ntandis que game_active :\n    # 1. Entrées\n    événements = poll_user_clicks()\n    \n    # 2. Mettre à jour les états\n    joueur.x += speed_x\n    \n    # 3. Dessiner un tampon d'écran\n    render_canvas (joueur)\n    \n    # Limiter la fréquence d'images\n    tick_rate_limit(60)\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-5-2",
+      "chapterId": "ch-py-game-5",
+      "courseId": "py-game",
+      "title": "Théorie : écran coordonne les grilles d'alignement cartésiennes",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Résolutions de rendu et alignements des coordonnées\n\nDans les moteurs de jeux de bureau, la disposition de l'affichage est modélisée comme une grille de coordonnées cartésiennes discrète.\n\n### Différences de positionnement de la grille\nContrairement aux fichiers mathématiques classiques où l'origine (0,0) se trouve au centre avec une positivité ascendante, **les écrans d'ordinateur placent (0,0) dans la marge supérieure gauche** :\n- L'augmentation de **X** déplace les éléments **À droite**.\n- L'augmentation de **Y** déplace les éléments **Down** (dans les tampons d'écran traditionnels comme Pygame).\n\n```\n(0,0) -------------> +X (Largeur)\n  |\n  |\n  v + Y (hauteur)\n```\n\nComprendre les limites des limites contrôle les comportements de découpage des joueurs.",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-5-3",
+      "chapterId": "ch-py-game-5",
+      "courseId": "py-game",
+      "title": "Quiz interactif : journaux d'interrogation de la file d'attente d'événements",
+      "order": 3,
+      "type": "exercise",
+      "content": null,
+      "question": "Pourquoi est-il essentiel d’interroger constamment le pipeline d’événements dans les boucles de ticks de jeu actives ?",
+      "options": [
+        "Pour capturer instantanément les clics du clavier, de la souris et fermer la fenêtre",
+        "Pour capturer instantanément les clics du clavier, de la souris et fermer la fenêtre",
+        "Pour déclencher le garbage collection matériel",
+        "Pour optimiser le chargement du cache d'actifs"
+      ],
+      "answer": "Pour capturer instantanément les clics du clavier, de la souris et fermer la fenêtre",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-5-4",
+      "chapterId": "ch-py-game-5",
+      "courseId": "py-game",
+      "title": "Projet pratique : navigations Snake qui enveloppent les limites",
+      "order": 4,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Suivez les coordonnées de la position du serpent (x, y) et les décalages de direction de la vitesse (dx, dy)., Vérifiez les déclencheurs de pression des touches fléchées et remplacez les décalages de direction., Assurez-vous que les coordonnées s'enroulent automatiquement sur les murs si les limites dépassent les largeurs.",
+      "hints": [
+        "Calculs d'enveloppement du modèle : coordonnée = (coordonnée + delta) % screen_width.",
+        "Vérifiez que la vitesse correspond correctement aux vecteurs de disposition WASD."
+      ]
+    },
+    {
+      "id": "item-py-game-6-1",
+      "chapterId": "ch-py-game-6",
+      "courseId": "py-game",
+      "title": "Théorie : Structuration des sprites et suivi des coordonnées",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Composants d'actifs réutilisables avec des classes de sprites\n\nDans les moteurs de jeu modulaires, les sprites sont des classes représentant des modèles graphiques actifs en mouvement (comme des voitures, des vaisseaux spatiaux, des balles ou des obstacles). Ils contiennent des positions, des dimensions, des variables de vitesse et des crochets de rendu uniques.\n\n### Déclarer des plans de sprites\n```python\nclasse BulletSprite :\n    def __init__(self, start_x, start_y) :\n        self.x = start_x\n        self.y = start_y\n        self.speed_y = -8 # Se déplace vers le haut\n        self.width = 4\n        hauteur.auto = 10\n\n    mise à jour def (auto):\n        self.y += self.speed_y # Déplace les balles verticalement\n\n    def get_bounding_box(self):\n        # Bords supérieur gauche et inférieur droit\n        retour (self.x, self.y, self.x + self.width, self.y + self.height)\n```\n\nLe regroupement des instances de puces facilite la mise à jour et l'établissement de variables de scores.",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-6-2",
+      "chapterId": "ch-py-game-6",
+      "courseId": "py-game",
+      "title": "Théorie : vérification des équations par des cadres de délimitation",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Résoudre les collisions avec la vérification des limites AABB\n\nLes contrôles de collision vérifient si deux éléments occupent des régions qui se chevauchent. La méthode mathématique la plus rapide est le calcul du chevauchement **Axis-Aligned Bounding Box (AABB)**.\n\n### Dans la logique de collision AABB\nSi vous avez un Sprite A et un Sprite B : ils se chevauchent **uniquement** s'ils se chevauchent simultanément sur les plages horizontale et verticale.\n\n```python\ndef check_collision (rectA, rectB):\n    # rect est (x, y, largeur, hauteur)\n    hache, ay, aw, ah = rectA\n    bx, par, bw, bh = rectB\n\n    # Inégalités de chevauchement simples\n    chevauchement_x = hache < bx + bw et hache + aw > bx\n    chevauchement_y = ay < par + bh et ay + ah > par\n\n    retourner chevauchement_x et chevauchement_y # Vrai sur les hits\n```",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-6-3",
+      "chapterId": "ch-py-game-6",
+      "courseId": "py-game",
+      "title": "Quiz interactif : Résoudre les conditions de collision",
+      "order": 3,
+      "type": "exercise",
+      "content": null,
+      "question": "Avec les vérifications AABB (Axis-Aligned Bounding Box), quelle condition signale un chevauchement de collision ?",
+      "options": [
+        "Lorsque le chevauchement se produit simultanément sur les axes correspondants",
+        "Lorsque les centres s'alignent exactement sur l'origine de l'écran",
+        "Uniquement lorsque les décalages de vitesse du sprite tombent à zéro",
+        "Uniquement pendant les cycles de redimensionnement de fenêtre"
+      ],
+      "answer": "Lorsque le chevauchement se produit simultanément sur les axes correspondants",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-6-4",
+      "chapterId": "ch-py-game-6",
+      "courseId": "py-game",
+      "title": "Projet pratique : calculateur de ticks d'esquive d'un astéroïde vers le bas",
+      "order": 4,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Créez des conteneurs de classe Player et FallingObstacle., Implémentez des cycles d'apparition à grande vitesse en déplaçant les éléments vers le bas., Auditez les chevauchements des limites pour décrémenter les attributs de santé du joueur.",
+      "hints": [
+        "Utilisez un module aléatoire pour faire varier les coordonnées x d'apparition.",
+        "Vérifiez le chevauchement à l'aide des équations AABB : leftA < rightB et rightA > leftB etc."
+      ]
+    },
+    {
+      "id": "item-py-basic-1-5",
+      "chapterId": "ch-py-basic-1",
+      "courseId": "py-basic",
+      "title": "Théorie : saisie du lecteur et expressions arithmétiques mathématiques",
+      "order": 5,
+      "type": "lesson",
+      "content": "## Entrée interactive et opérateurs mathématiques Python\n\nPour écrire des applications utiles, nous devons accepter les commentaires des utilisateurs. Python fournit un outil intégré simple appelé « input() » pour lire les données du terminal.\n\n### Analyse des entrées de la console interactive\n\nUn comportement crucial à retenir est que `input()` **toujours** renvoie l'entrée de l'utilisateur strictement sous forme de chaîne (`str`). Si vous devez effectuer des opérations mathématiques sur ces données, vous devez les convertir en un type numérique à l'aide d'assistants de conversion comme `int()` ou `float()` :\n\n```python\n# Lire l'entrée de l'utilisateur\nraw_age = input(\"Entrez votre âge : \") # par ex. l'utilisateur saisit \"21\"\nage_next_year = int(raw_age) + 1 # Convertit \"21\" en 21, puis ajoute 1\nprint(f\"L'année prochaine, vous aurez {age_next_year}!\")\n```\n\nSi vous ignorez la conversion `int()`, Python générera une `TypeError` lors de la tentative d'ajout d'une chaîne et d'un entier.\n\n### Opérateurs arithmétiques Python standard\n\nPython prend en charge les opérateurs mathématiques familiers :\n- `+` Addition (sommes les valeurs)\n- `-` Soustraction (soustrait la seconde du premier)\n- `*` Multiplication (multiplie les valeurs)\n- `/` Float Division : donne toujours un flottant (par exemple, `5 / 2` renvoie `2.5`)\n- `//` Division entière (étage) : arrondit à l'entier inférieur le plus proche (par exemple, `5 // 2` renvoie `2`)\n- `%` Modulo Remainder : renvoie le reste après la division (par exemple, `5 % 2` renvoie `1`)\n- `**` Exponentiation (par exemple, `2 ** 3` calcule 2 à la troisième puissance, renvoyant `8`)\n\n### Ordre des opérations (PEMDAS)\n\nPython évalue les expressions mathématiques en suivant les règles de priorité des opérateurs algébriques standard :\n1. **P**arenthèses `()`\n2. **E**xposants `**`\n3. **M**ultiplication `*`, **D**ivision `/`, `//` et **M**odulo `%` (évalué de gauche à droite)\n4. **A**ddition `+` et **S**ubtraction `-` (évalué de gauche à droite)",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-basic-1-6",
+      "chapterId": "ch-py-basic-1",
+      "courseId": "py-basic",
+      "title": "Quiz interactif : évaluer l'ordre des opérations",
+      "order": 6,
+      "type": "exercise",
+      "content": null,
+      "question": "Quelle est la valeur numérique finale évaluée de l'évaluation de la variable dans cette séquence mathématique :\n\névaluation = 15 % 7 * 2 ** 3 // 4",
+      "options": [
+        "valeur entière 2",
+        "valeur entière 1",
+        "valeur à virgule flottante 2,5",
+        "valeur entière 8"
+      ],
+      "answer": "valeur entière 2",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-basic-1-7",
+      "chapterId": "ch-py-basic-1",
+      "courseId": "py-basic",
+      "title": "Projet pratique : Calculateur complet de consommation de carburant",
+      "order": 7,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Invitez l'utilisateur à saisir la distance totale parcourue en miles (analysée sous forme de flotteur).,Invitez l'utilisateur à saisir le volume total de carburant consommé en gallons (analysez sous forme de flotteur).,Calculez l'efficacité énergétique du véhicule à l'aide de la formule arithmétique : miles divisés par gallons.,Imprimez les miles par gallon (MPG) calculés avec une étiquette descriptive.",
+      "hints": [
+        "Appliquez float(input()) directement pour inviter et convertir les réponses de l'utilisateur sous forme décimale en une seule étape efficace.",
+        "Protégez-vous contre la division par zéro en supposant que les gallons saisis sont toujours supérieurs à zéro."
+      ]
+    },
+    {
+      "id": "item-py-basic-1-8",
+      "chapterId": "ch-py-basic-1",
+      "courseId": "py-basic",
+      "title": "Terminez l'exercice de code : modèle de convertisseur de température",
+      "order": 8,
+      "type": "project",
+      "content": "# Code modèle à copier, modifier et compléter :\n# ----------------------------------------------------\n# TODO : Obtenez la température en Celsius à partir de la saisie de l'utilisateur\n\n# À FAIRE : Convertir la chaîne de saisie de l'utilisateur en une variable flottante\n# Celsius = ...\n\n# À FAIRE : Appliquer la formule de conversion\n# fahrenheit = ...\n\n# TODO : Résultats de sortie formatés avec des indicateurs dynamiques\n# print(f\"{celsius} degrés Celsius convertis en {fahrenheit} degrés Fahrenheit\")",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Examinez le squelette de script partiel ci-dessous., Complétez toutes les instructions # TODO désignées., Acceptez l'entrée représentant les degrés Celsius, convertissez-la en un type numérique, calculez les degrés Fahrenheit en utilisant la formule : (Celsius * 9/5) + 32 et affichez le résultat., Soumettez votre script terminé (minimum 15 caractères).",
+      "hints": [
+        "Calculez l'équivalent Fahrenheit : fahrenheit = (celsius * 9/5) + 32",
+        "Assurez-vous de convertir l'entrée de chaîne brute à l'aide de float() afin que nous puissions gérer les entrées de température décimales."
+      ]
+    },
+    {
+      "id": "item-py-ds-1-5",
+      "chapterId": "ch-py-ds-1",
+      "courseId": "py-ds",
+      "title": "Théorie : saisie du lecteur et expressions arithmétiques mathématiques",
+      "order": 5,
+      "type": "lesson",
+      "content": "## Entrée interactive et opérateurs mathématiques Python\n\nPour écrire des applications utiles, nous devons accepter les commentaires des utilisateurs. Python fournit un outil intégré simple appelé « input() » pour lire les données du terminal.\n\n### Analyse des entrées de la console interactive\n\nUn comportement crucial à retenir est que `input()` **toujours** renvoie l'entrée de l'utilisateur strictement sous forme de chaîne (`str`). Si vous devez effectuer des opérations mathématiques sur ces données, vous devez les convertir en un type numérique à l'aide d'assistants de conversion comme `int()` ou `float()` :\n\n```python\n# Lire l'entrée de l'utilisateur\nraw_age = input(\"Entrez votre âge : \") # par ex. l'utilisateur saisit \"21\"\nage_next_year = int(raw_age) + 1 # Convertit \"21\" en 21, puis ajoute 1\nprint(f\"L'année prochaine, vous aurez {age_next_year}!\")\n```\n\nSi vous ignorez la conversion `int()`, Python générera une `TypeError` lors de la tentative d'ajout d'une chaîne et d'un entier.\n\n### Opérateurs arithmétiques Python standard\n\nPython prend en charge les opérateurs mathématiques familiers :\n- `+` Addition (sommes les valeurs)\n- `-` Soustraction (soustrait la seconde du premier)\n- `*` Multiplication (multiplie les valeurs)\n- `/` Float Division : donne toujours un flottant (par exemple, `5 / 2` renvoie `2.5`)\n- `//` Division entière (étage) : arrondit à l'entier inférieur le plus proche (par exemple, `5 // 2` renvoie `2`)\n- `%` Modulo Remainder : renvoie le reste après la division (par exemple, `5 % 2` renvoie `1`)\n- `**` Exponentiation (par exemple, `2 ** 3` calcule 2 à la troisième puissance, renvoyant `8`)\n\n### Ordre des opérations (PEMDAS)\n\nPython évalue les expressions mathématiques en suivant les règles de priorité des opérateurs algébriques standard :\n1. **P**arenthèses `()`\n2. **E**xposants `**`\n3. **M**ultiplication `*`, **D**ivision `/`, `//` et **M**odulo `%` (évalué de gauche à droite)\n4. **A**ddition `+` et **S**ubtraction `-` (évalué de gauche à droite)",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-1-6",
+      "chapterId": "ch-py-ds-1",
+      "courseId": "py-ds",
+      "title": "Quiz interactif : évaluer l'ordre des opérations",
+      "order": 6,
+      "type": "exercise",
+      "content": null,
+      "question": "Quelle est la valeur numérique finale évaluée de l'évaluation de la variable dans cette séquence mathématique :\n\névaluation = 15 % 7 * 2 ** 3 // 4",
+      "options": [
+        "valeur entière 2",
+        "valeur entière 1",
+        "valeur à virgule flottante 2,5",
+        "valeur entière 8"
+      ],
+      "answer": "valeur entière 2",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-ds-1-7",
+      "chapterId": "ch-py-ds-1",
+      "courseId": "py-ds",
+      "title": "Projet pratique : Calculateur complet de consommation de carburant",
+      "order": 7,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Invitez l'utilisateur à saisir la distance totale parcourue en miles (analysée sous forme de flotteur).,Invitez l'utilisateur à saisir le volume total de carburant consommé en gallons (analysez sous forme de flotteur).,Calculez l'efficacité énergétique du véhicule à l'aide de la formule arithmétique : miles divisés par gallons.,Imprimez les miles par gallon (MPG) calculés avec une étiquette descriptive.",
+      "hints": [
+        "Appliquez float(input()) directement pour inviter et convertir les réponses de l'utilisateur sous forme décimale en une seule étape efficace.",
+        "Protégez-vous contre la division par zéro en supposant que les gallons saisis sont toujours supérieurs à zéro."
+      ]
+    },
+    {
+      "id": "item-py-ds-1-8",
+      "chapterId": "ch-py-ds-1",
+      "courseId": "py-ds",
+      "title": "Terminez l'exercice de code : modèle de convertisseur de température",
+      "order": 8,
+      "type": "project",
+      "content": "# Code modèle à copier, modifier et compléter :\n# ----------------------------------------------------\n# TODO : Obtenez la température en Celsius à partir de la saisie de l'utilisateur\n\n# À FAIRE : Convertir la chaîne de saisie de l'utilisateur en une variable flottante\n# Celsius = ...\n\n# À FAIRE : Appliquer la formule de conversion\n# fahrenheit = ...\n\n# TODO : Résultats de sortie formatés avec des indicateurs dynamiques\n# print(f\"{celsius} degrés Celsius convertis en {fahrenheit} degrés Fahrenheit\")",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Examinez le squelette de script partiel ci-dessous., Complétez toutes les instructions # TODO désignées., Acceptez l'entrée représentant les degrés Celsius, convertissez-la en un type numérique, calculez les degrés Fahrenheit en utilisant la formule : (Celsius * 9/5) + 32 et affichez le résultat., Soumettez votre script terminé (minimum 15 caractères).",
+      "hints": [
+        "Calculez l'équivalent Fahrenheit : fahrenheit = (celsius * 9/5) + 32",
+        "Assurez-vous de convertir l'entrée de chaîne brute à l'aide de float() afin que nous puissions gérer les entrées de température décimales."
+      ]
+    },
+    {
+      "id": "item-py-game-1-5",
+      "chapterId": "ch-py-game-1",
+      "courseId": "py-game",
+      "title": "Théorie : saisie du lecteur et expressions arithmétiques mathématiques",
+      "order": 5,
+      "type": "lesson",
+      "content": "## Entrée interactive et opérateurs mathématiques Python\n\nPour écrire des applications utiles, nous devons accepter les commentaires des utilisateurs. Python fournit un outil intégré simple appelé « input() » pour lire les données du terminal.\n\n### Analyse des entrées de la console interactive\n\nUn comportement crucial à retenir est que `input()` **toujours** renvoie l'entrée de l'utilisateur strictement sous forme de chaîne (`str`). Si vous devez effectuer des opérations mathématiques sur ces données, vous devez les convertir en un type numérique à l'aide d'assistants de conversion comme `int()` ou `float()` :\n\n```python\n# Lire l'entrée de l'utilisateur\nraw_age = input(\"Entrez votre âge : \") # par ex. l'utilisateur saisit \"21\"\nage_next_year = int(raw_age) + 1 # Convertit \"21\" en 21, puis ajoute 1\nprint(f\"L'année prochaine, vous aurez {age_next_year}!\")\n```\n\nSi vous ignorez la conversion `int()`, Python générera une `TypeError` lors de la tentative d'ajout d'une chaîne et d'un entier.\n\n### Opérateurs arithmétiques Python standard\n\nPython prend en charge les opérateurs mathématiques familiers :\n- `+` Addition (sommes les valeurs)\n- `-` Soustraction (soustrait la seconde du premier)\n- `*` Multiplication (multiplie les valeurs)\n- `/` Float Division : donne toujours un flottant (par exemple, `5 / 2` renvoie `2.5`)\n- `//` Division entière (étage) : arrondit à l'entier inférieur le plus proche (par exemple, `5 // 2` renvoie `2`)\n- `%` Modulo Remainder : renvoie le reste après la division (par exemple, `5 % 2` renvoie `1`)\n- `**` Exponentiation (par exemple, `2 ** 3` calcule 2 à la troisième puissance, renvoyant `8`)\n\n### Ordre des opérations (PEMDAS)\n\nPython évalue les expressions mathématiques en suivant les règles de priorité des opérateurs algébriques standard :\n1. **P**arenthèses `()`\n2. **E**xposants `**`\n3. **M**ultiplication `*`, **D**ivision `/`, `//` et **M**odulo `%` (évalué de gauche à droite)\n4. **A**ddition `+` et **S**ubtraction `-` (évalué de gauche à droite)",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-1-6",
+      "chapterId": "ch-py-game-1",
+      "courseId": "py-game",
+      "title": "Quiz interactif : évaluer l'ordre des opérations",
+      "order": 6,
+      "type": "exercise",
+      "content": null,
+      "question": "Quelle est la valeur numérique finale évaluée de l'évaluation de la variable dans cette séquence mathématique :\n\névaluation = 15 % 7 * 2 ** 3 // 4",
+      "options": [
+        "valeur entière 2",
+        "valeur entière 1",
+        "valeur à virgule flottante 2,5",
+        "valeur entière 8"
+      ],
+      "answer": "valeur entière 2",
+      "requirements": null,
+      "hints": null
+    },
+    {
+      "id": "item-py-game-1-7",
+      "chapterId": "ch-py-game-1",
+      "courseId": "py-game",
+      "title": "Projet pratique : Calculateur complet de consommation de carburant",
+      "order": 7,
+      "type": "project",
+      "content": null,
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Invitez l'utilisateur à saisir la distance totale parcourue en miles (analysée sous forme de flotteur).,Invitez l'utilisateur à saisir le volume total de carburant consommé en gallons (analysez sous forme de flotteur).,Calculez l'efficacité énergétique du véhicule à l'aide de la formule arithmétique : miles divisés par gallons.,Imprimez les miles par gallon (MPG) calculés avec une étiquette descriptive.",
+      "hints": [
+        "Appliquez float(input()) directement pour inviter et convertir les réponses de l'utilisateur sous forme décimale en une seule étape efficace.",
+        "Protégez-vous contre la division par zéro en supposant que les gallons saisis sont toujours supérieurs à zéro."
+      ]
+    },
+    {
+      "id": "item-py-game-1-8",
+      "chapterId": "ch-py-game-1",
+      "courseId": "py-game",
+      "title": "Terminez l'exercice de code : modèle de convertisseur de température",
+      "order": 8,
+      "type": "project",
+      "content": "# Code modèle à copier, modifier et compléter :\n# ----------------------------------------------------\n# TODO : Obtenez la température en Celsius à partir de la saisie de l'utilisateur\n\n# À FAIRE : Convertir la chaîne de saisie de l'utilisateur en une variable flottante\n# Celsius = ...\n\n# À FAIRE : Appliquer la formule de conversion\n# fahrenheit = ...\n\n# TODO : Résultats de sortie formatés avec des indicateurs dynamiques\n# print(f\"{celsius} degrés Celsius convertis en {fahrenheit} degrés Fahrenheit\")",
+      "question": null,
+      "options": null,
+      "answer": null,
+      "requirements": "Examinez le squelette de script partiel ci-dessous., Complétez toutes les instructions # TODO désignées., Acceptez l'entrée représentant les degrés Celsius, convertissez-la en un type numérique, calculez les degrés Fahrenheit en utilisant la formule : (Celsius * 9/5) + 32 et affichez le résultat., Soumettez votre script terminé (minimum 15 caractères).",
+      "hints": [
+        "Calculez l'équivalent Fahrenheit : fahrenheit = (celsius * 9/5) + 32",
+        "Assurez-vous de convertir l'entrée de chaîne brute à l'aide de float() afin que nous puissions gérer les entrées de température décimales."
+      ]
+    },
+    {
+      "id": "item-el-curr-1-1",
+      "chapterId": "ch-el-curr-1",
+      "courseId": "electronics-current",
+      "title": "The Flow of Electrons",
+      "order": 1,
+      "type": "lesson",
+      "content": "## What is Electrical Current?\n\nElectrical current represents the physical flow of electric charge carrier particles (most commonly electrons) through a conductor like copper wire, a silicon trace, or salt water.\n\n### The Atom and Electron Shells\n\nAll matter is composed of atoms. Atoms feature a central nucleus filled with positive **protons** and neutral **neutrons**, surrounded by a cloud of negative **electrons** orbiting in different energetic levels (shells). \n\nIn conductive metals like Copper (Cu), Silver (Ag), or Aluminum (Al), the outermost electrons (called **valence electrons**) are very loosely bound to their individual parent nuclei. \n\nIn the absence of any external force, these valence electrons move at random directions constantly. However, when an external electric field is applied, these loosely bound outer electrons break away to form a coordinated river of charge moving in a single path. This coordinated movement is what we define as **electric current**.\n\n```\n   Metal Conductor Wire (Copper atoms)\n   +---------+---------+---------+-------> Net motion\n   |  (+)-->  |  (+)-->  |  (+)-->  |      of negative \n   |   e-    |   e-    |   e-    |      electrons\n   +---------+---------+---------+------->\n```\n\n### Quantifying Current: The Ampere\n\nTo measure electrical current, we quantify the amount of net electric charge flowing past a cross-sectional point of a conductor per unit of time:\n\n* **Formula**: I = Q / t (Current = Charge divided by Time)\n* **Unit of Charge (Q)**: The **Coulomb** (C). One single Coulomb is equivalent to the collective electrical charge of approximately 6.242 x 10^18 electrons!\n* **Unit of Current (I)**: The **Ampere** (symbol: **A** or Amps), named after French physicist André-Marie Ampère. One Ampere is defined as **one Coulomb of charge flowing past a boundary point in exactly one second**:\n\n  `1 A = 1 C/s`"
+    },
+    {
+      "id": "item-el-curr-1-2",
+      "chapterId": "ch-el-curr-1",
+      "courseId": "electronics-current",
+      "title": "Interactive Quiz: Electron Streams",
+      "order": 2,
+      "type": "exercise",
+      "question": "An electrical current of exactly 2.0 Amperes is flowing through a metal wire. How many Coulombs of charge flow past any chosen point in the wire every 5 seconds?",
+      "answer": "10 Coulombs",
+      "options": [
+        "2 Coulombs",
+        "5 Coulombs",
+        "10 Coulombs",
+        "20 Coulombs"
+      ]
+    },
+    {
+      "id": "item-el-curr-2-1",
+      "chapterId": "ch-el-curr-2",
+      "courseId": "electronics-current",
+      "title": "Voltage Difference: The Electromotive Push",
+      "order": 1,
+      "type": "lesson",
+      "content": "## Voltage (Electric Potential Difference)\n\nCharges do not move on their own to form a steady current loop. To initiate and maintain this flow, we must apply a pushing force. This driving force is **Voltage** (denoted as V), representing the electric potential difference between two distinct points.\n\n### The Hydraulic Analogy\n\nTo understand electronics easily, engineers frequently map electric structures to a water system:\n- **Electrical Current (I)** is comparable to the volume/rate of **water flow** (liters/second) through a pipe.\n- **Voltage (V)** is comparable to the **water pressure** or pump pushing the water. Higher pressure results in a stronger flow. If there is no pressure gradient (no height difference or pump), water sits stagnant.\n- **Conductors (Wires)** translate to water pipes. A wider pipe lets more flow pass, while a thin pinched restriction slows the flow down.\n\n```\n         --- THE WATER ANALOGY ---\n      Water Pump (Voltage)      Flowing Water (Current)\n            [Pump] --------------> [Water Pipe]\n```\n\n### Potential Difference\n\nVoltage is measured in **Volts** (symbol: **V**), named after Alessandro Volta (inventor of the chemical battery). When you look at a 9V battery, it means there is an electrical potential difference of 9 Volts between its positive (+) anode terminal and negative (-) cathode terminal. Electrons are highly attracted to the positive end and repelled by the negative end."
+    },
+    {
+      "id": "item-el-curr-2-2",
+      "chapterId": "ch-el-curr-2",
+      "courseId": "electronics-current",
+      "title": "Resistance and Ohm's Law",
+      "order": 2,
+      "type": "lesson",
+      "content": "## Electrical Resistance & Ohm's Law\n\nNot every material lets electrons slide by freely. Insulators (such as rubber, plastic, or glass) bind their electrons strongly, preventing any current. Even top-tier metal conductors possess some resistance.\n\n### What is Resistance?\n\n**Resistance** (denoted as R) is the opposition to the flow of electric current. It acts like friction slowing a moving object. Resistance is measured in **Ohms** (represented by the Greek letter Omega: **Ω**).\n\n### Ohm's Law: The Golden Triangle\n\nIn 1827, German physicist Georg Ohm discovered that current, voltage, and resistance share a direct, linear relationship. This relationship is codified in **Ohm's Law**:\n\n`V = I x R` (Voltage = Current x Resistance)\n\nFrom this fundamental equation, we can derive two other variations to solve for any unknown value:\n1. **To find Current**: I = V / R\n2. **To find Resistance**: R = V / I\n\n```\n          Ohm's Law Triangle\n                /   V   \\\n               /  ----   \\\n              /  I |  R   \\\n```"
+    },
+    {
+      "id": "item-el-curr-2-3",
+      "chapterId": "ch-el-curr-2",
+      "courseId": "electronics-current",
+      "title": "Interactive Quiz: Solving Ohm's Law",
+      "order": 3,
+      "type": "exercise",
+      "question": "A heating element connected to a 120V household outlet has a measured resistance of 24 Ohms. What electrical current (I) is flowing through this element?",
+      "answer": "5.0 Amperes",
+      "options": [
+        "0.2 Amperes",
+        "2.8 Amperes",
+        "5.0 Amperes",
+        "120 Amperes"
+      ]
+    },
+    {
+      "id": "item-el-curr-2-4",
+      "chapterId": "ch-el-curr-2",
+      "courseId": "electronics-current",
+      "title": "Practical Circuit Calculation Project",
+      "order": 4,
+      "type": "project",
+      "content": "# Template code to copy, modify and complete:\n# ----------------------------------------------------\n# Write a simple Python/JavaScript program to compute Ohm's Law values\n# The function should accept voltage and resistance, and return the current.\n\ndef calculate_current(voltage, resistance):\n    # TODO: Calculate current using Ohm's Law\n    current = 0.0\n    return current\n\n# Or in JS:\n# function calculateCurrent(voltage, resistance) { ... }\n",
+      "requirements": [
+        "Define a function representing Ohm's law calculation helper.",
+        "Your function must divide voltage by resistance to get current in Amps.",
+        "Protect against division by zero: if resistance is 0, return float('inf') or equivalent.",
+        "Submit your completed script (minimum 20 characters)."
+      ],
+      "hints": [
+        "Use conditional statements to shield against division-by-zero errors when resistance equals 0.",
+        "Ensure your function returns the mathematical result of V/R when resistance is valid."
+      ]
+    }
+  ],
+  "progress": [
+    {
+      "userId": "usr-6eb2268e-4b5d-4930-9c77-2b09f72d18fe",
+      "itemId": "item-ts-1-1",
+      "courseId": "ts-advanced",
+      "completed": true,
+      "completedAt": "2026-05-22T09:02:28.105Z"
+    },
+    {
+      "userId": "usr-6eb2268e-4b5d-4930-9c77-2b09f72d18fe",
+      "itemId": "item-exp-1-1",
+      "courseId": "fullstack-express",
+      "completed": false
+    },
+    {
+      "userId": "usr-6eb2268e-4b5d-4930-9c77-2b09f72d18fe",
+      "itemId": "item-ts-1-2",
+      "courseId": "ts-advanced",
+      "completed": true,
+      "completedAt": "2026-05-22T09:02:38.052Z"
+    },
+    {
+      "userId": "usr-6eb2268e-4b5d-4930-9c77-2b09f72d18fe",
+      "itemId": "item-ts-1-3",
+      "courseId": "ts-advanced",
+      "completed": true,
+      "submittedAnswer": "The custom string literal parameter \"type\"",
+      "completedAt": "2026-05-22T09:03:01.401Z"
+    },
+    {
+      "userId": "usr-6eb2268e-4b5d-4930-9c77-2b09f72d18fe",
+      "itemId": "item-ts-1-4",
+      "courseId": "ts-advanced",
+      "completed": true,
+      "submittedAnswer": "ygjhfjyfkhghgojhgguoygsjhfsgfgsjsvjhgsw",
+      "completedAt": "2026-05-22T09:03:22.314Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-1",
+      "title": "Why is Structural Typing so different from Nominal Types?",
+      "content": "Coming from Java, TypeScript structural typing matches names of variables rather than the class name. I built a mapping and was shocked it worked. Anyone else experience this shock when starting out as developers?",
+      "authorName": "Sarah Developer",
+      "authorEmail": "sarah@coder.io",
+      "category": "TS Patterns",
+      "likes": 5,
+      "likedBy": [
+        "admin@platform.com"
+      ],
+      "commentsCount": 2,
+      "createdAt": "2026-05-20T08:14:00Z",
+      "comments": [
+        {
+          "id": "c-1",
+          "postId": "post-1",
+          "authorName": "James Cook",
+          "authorEmail": "james@dev.net",
+          "content": "Absolutely! It was mind-bending at first, but it is awesome for composing state interfaces!",
+          "createdAt": "2026-05-20T09:30:00Z"
+        },
+        {
+          "id": "c-2",
+          "postId": "post-1",
+          "authorName": "unitchad557",
+          "authorEmail": "unitchad557@gmail.com",
+          "content": "Wait until you try generic constraints. It pairs perfectly with shapes checking!",
+          "createdAt": "2026-05-20T10:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "post-2",
+      "title": "My Express custom CORS filter keeps blocking requests",
+      "content": "Encountering issues with Access-Control-Allow-Origin headers. My server runs on port 3000 and standard requests triggers dev sandbox exceptions. How do I define wildcards without compromising system constraints?",
+      "authorName": "Leo Dev",
+      "authorEmail": "leo@tech.org",
+      "category": "Help",
+      "likes": 2,
+      "likedBy": [],
+      "commentsCount": 1,
+      "createdAt": "2026-05-21T14:22:00Z",
+      "comments": [
+        {
+          "id": "c-3",
+          "postId": "post-2",
+          "authorName": "Alex Smith",
+          "authorEmail": "alex@cloud.com",
+          "content": "Check that credentials allowance handles OPTIONS pre-flights properly. Often pre-flight checks fail silently.",
+          "createdAt": "2026-05-21T15:05:00Z"
+        }
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-605bec96-2d34-48bc-8491-e245d07a481b",
+      "userId": "usr-6eb2268e-4b5d-4930-9c77-2b09f72d18fe",
+      "userEmail": "developer@learncraft.com",
+      "userName": "Demo Developer",
+      "itemId": "item-ts-1-4",
+      "itemTitle": "Hands-on Project: Strict Task Manager Engine",
+      "courseId": "ts-advanced",
+      "submissionText": "ygjhfjyfkhghgojhgguoygsjhfsgfgsjsvjhgsw",
+      "status": "reviewed",
+      "feedback": "Excellent work! Your code architecture shows exceptional implementation of type constraints and modular structural rules.",
+      "createdAt": "2026-05-22T09:03:22.313Z"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg-page: #F9FAFB;
+  --bg-panel: #FFFFFF;
+  --bg-panel-muted: #f8FAFC;
+  --text-primary: #1F2937;
+  --text-secondary: #4B5563;
+  --border-subtle: #E5E7EB;
+  --bg-sidebar: #111827;
+  --bg-sidebar-panel: #1E293B;
+}
+
+.dark {
+  --bg-page: #0F172A;
+  --bg-panel: #1E293B;
+  --bg-panel-muted: rgba(255, 255, 255, 0.05);
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --border-subtle: #334155;
+  --bg-sidebar: #090e1A;
+  --bg-sidebar-panel: #0F172A;
+}
+
+@theme {
+  --color-base: var(--bg-page);
+  --color-panel: var(--bg-panel);
+  --color-panel-muted: var(--bg-panel-muted);
+  --color-content: var(--text-primary);
+  --color-content-muted: var(--text-secondary);
+  --color-divider: var(--border-subtle);
+  --color-sidebar: var(--bg-sidebar);
+  --color-sidebar-panel: var(--bg-sidebar-panel);
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-base);
+  color: var(--color-content);
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars resembling a clean minimal palette */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-panel-muted);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-divider);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-content-muted);
+}
