@@ -6,3 +6,6 @@ coverage/
 *.log
 .env*
 !.env.example
+# Local service account credentials
+service-account.json
+learncraft2-dev-firebase-adminsdk-*.json
