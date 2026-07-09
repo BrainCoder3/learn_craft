@@ -9,3 +9,10 @@ coverage/
 # Local service account credentials
 service-account.json
 learncraft2-dev-firebase-adminsdk-*.json
+
+# --- added by reorg safeguard 2026-07-09 ---
+.env
+.dart_tool/
+.next/
+__pycache__/
+.venv/
