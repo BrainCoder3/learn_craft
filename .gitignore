@@ -46,3 +46,10 @@ Thumbs.db
 
 # Turbopack
 .turbo/
+
+# --- added by reorg safeguard 2026-07-09 ---
+build/
+.dart_tool/
+dist/
+__pycache__/
+.venv/

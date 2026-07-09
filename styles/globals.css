@@ -1,0 +1,19 @@
+/* globals.css */
+@import './clay.css';
+
+/* Reset and base styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--surface-default);
+  color: var(--text-primary);
+}
+
+/* Utility classes (if needed) */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

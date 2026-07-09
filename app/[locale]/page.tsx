@@ -24,7 +24,7 @@ export default async function HomePage({ params }: Props) {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Dynamic Header */}
-      <header className="sticky top-0 z-50 backdrop-blur-md bg-[var(--surface-default)]/80 border-b border-[var(--border-default)] transition-colors duration-250">
+      <header className="sticky top-0 z-50 clay-glow bg-[var(--surface-default)]/80 border-b border-[var(--border-default)] transition-colors duration-250">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-8">
             <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-[var(--interactive-primary)] to-[var(--text-accent)] bg-clip-text text-transparent hover:opacity-90">

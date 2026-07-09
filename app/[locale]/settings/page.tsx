@@ -64,7 +64,7 @@ export default function SettingsPage() {
       )}
 
       {/* Header */}
-      <header className="sticky top-0 z-40 backdrop-blur-md bg-[var(--surface-default)]/80 border-b border-[var(--border-default)] transition-colors duration-250">
+      <header className="sticky top-0 z-40 clay-glow bg-[var(--surface-default)]/80 border-b border-[var(--border-default)] transition-colors duration-250">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <Link
             href="/"

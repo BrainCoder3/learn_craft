@@ -24,11 +24,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [error, setError] = useState<Error | null>(null);
 
   useEffect(() => {
-      return () => {
-        window.removeEventListener('learncraft-mock-auth-change', handler);
-      };
-    }
-    // Existing Firebase listener
     const unsubscribe = onAuthStateChanged(auth, async (fbUser) => {
       try {
         setFirebaseUser(fbUser);
@@ -50,15 +45,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const logout = async () => {
-    if (isMockMode()) {
-      // Clear mock user
-      window.localStorage.removeItem(MOCK_USER_KEY);
-      const event = new Event(MOCK_AUTH_EVENT);
-      window.dispatchEvent(event);
-      setUser(null);
-      setFirebaseUser(null);
-      return;
-    }
     try {
       await signOut(auth);
       setUser(null);

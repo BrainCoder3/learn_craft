@@ -35,7 +35,7 @@ export function Sidebar({ courseId, chapters, currentChapterId }: SidebarProps) 
 
       {/* Sidebar */}
       <aside
-        className={`fixed bottom-0 left-0 top-0 z-30 w-72 flex flex-col bg-[var(--surface-default)] border-r border-[var(--border-default)] shadow-[var(--shadow-lg)] transition-transform duration-300 md:relative md:translate-x-0 md:shadow-none ${
+        className={`fixed bottom-0 left-0 top-0 z-30 w-72 flex flex-col clay-card transition-transform duration-300 md:relative md:translate-x-0 md:shadow-none ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
@@ -136,7 +136,7 @@ export function Sidebar({ courseId, chapters, currentChapterId }: SidebarProps) 
       {/* Mobile overlay */}
       {isOpen && (
         <div
-          className="fixed inset-0 z-20 bg-black/50 backdrop-blur-sm md:hidden"
+          className="fixed inset-0 z-20 clay-overlay md:hidden"
           onClick={() => setIsOpen(false)}
         />
       )}

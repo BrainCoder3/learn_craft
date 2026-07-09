@@ -9,7 +9,7 @@ import {
   signInWithPopup,
 } from 'firebase/auth';
 import { auth } from '@/lib/firebase';
-import { upsertUser, isMockMode } from '@/lib/db';
+import { upsertUser } from '@/lib/db';
 import { Link, useRouter } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 
@@ -30,31 +30,12 @@ export function AuthForm({ mode, locale }: AuthFormProps) {
   const [loading, setLoading] = useState(false);
   const [googleLoading, setGoogleLoading] = useState(false);
 
+  // Handle email authentication (sign‑up or sign‑in) using Firebase
   const handleEmailAuth = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
     setLoading(true);
-
     try {
-      if (isMockMode()) {
-        // Mock sign‑up / sign‑in using localStorage
-        const mockUser = {
-          uid: 'mock-user-id',
-          email,
-          displayName: displayName || email.split('@')[0],
-          role: 'student',
-          level: 'beginner',
-          preferences: { theme: 'light', language: locale as 'fr' | 'en', notificationsEnabled: true },
-          badges: [],
-          totalXp: 0,
-          updatedAt: new Date(),
-        };
-        window.localStorage.setItem('learncraft-mock-auth-user', JSON.stringify(mockUser));
-        const event = new Event('learncraft-mock-auth-change');
-        window.dispatchEvent(event);
-        router.push('/dashboard');
-        return;
-      }
       if (mode === 'signup') {
         const cred = await createUserWithEmailAndPassword(auth, email, password);
         await upsertUser(cred.user.uid, {
@@ -96,25 +77,6 @@ export function AuthForm({ mode, locale }: AuthFormProps) {
     setError(null);
     setGoogleLoading(true);
     try {
-      if (isMockMode()) {
-        // Mock Google sign‑in: reuse same mock user structure
-        const mockUser = {
-          uid: 'mock-user-id',
-          email: email || 'mock@example.com',
-          displayName: displayName || 'Mock User',
-          role: 'student',
-          level: 'beginner',
-          preferences: { theme: 'light', language: locale as 'fr' | 'en', notificationsEnabled: true },
-          badges: [],
-          totalXp: 0,
-          updatedAt: new Date(),
-        };
-        window.localStorage.setItem('learncraft-mock-auth-user', JSON.stringify(mockUser));
-        const event = new Event('learncraft-mock-auth-change');
-        window.dispatchEvent(event);
-        router.push('/dashboard');
-        return;
-      }
       const provider = new GoogleAuthProvider();
       const cred = await signInWithPopup(auth, provider);
       if (mode === 'signup') {
